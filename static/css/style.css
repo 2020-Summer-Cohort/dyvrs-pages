@@ -1,3 +1,44 @@
+*{
+    list-style: none 
+}
+/* :root{
+    --color-1:#011627;
+    --color-2:#FF3366;
+    --color-3:#2EC4B6;
+    --color-4:#F6F7F8;
+    --color-5:#20A4F3;
+} */
+
+:root{
+    --color-1:#CB48B7;
+    --color-2:#2E2D4D;
+    --color-3:#337357;
+    --color-4:#6D9F71;
+    --color-5:#E4E3D3;
+}
+
+/* :root{
+    --color-1:#734B5E;
+    --color-2:#BCBDC0;
+    --color-3:#565857;
+    --color-4:#8A8D91;
+    --color-5:#F5D3C8;
+} */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    color: white;
+    background-color: var(--color-2);
+}
+.footer{
+    color: white;
+    background-color: var(--color-2);
+   
+}
+
 .index__spot-light--img{
     max-height: 150px;
     max-width: 150px;
