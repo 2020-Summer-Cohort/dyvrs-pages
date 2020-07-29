@@ -51,3 +51,16 @@ body {
 .header__logo {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.footer a, .header__nav li {
+    padding:1em;
+    border: 2px solid var(--color-3);
+    border-radius: 15%;
+    color: white;
+}
+.footer a:hover, .header__nav li:hover {
+    background-color: var(--color-3);
+    padding:1em;
+    color: white;
+
+}
