@@ -49,3 +49,25 @@ padding: 0px;
 .about__mission--paragraph {
     text-align: center;
 }
+
+.category__business--img {
+    max-height: 150px;
+    max-width: 150px;
+}
+.index__spot-light--img{
+    max-height: 150px;
+    max-width: 150px;
+}
+.category__business--title {
+    margin: 2rem;
+}
+.category__business--container-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.category__business--list-item {
+    padding: 1rem;
+}
