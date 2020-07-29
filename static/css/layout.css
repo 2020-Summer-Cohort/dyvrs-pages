@@ -58,16 +58,23 @@ padding: 0px;
     max-height: 150px;
     max-width: 150px;
 }
-.category__business--title {
+.contact__item img {
+    max-height: 200px;
+    max-width: 200px;
+}
+.category__business--title, .contact__title {
     margin: 2rem;
 }
-.category__business--container-list {
+.category__business--container-list, .contact__container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 3rem;
 }
-.category__business--list-item {
+.contact__container :nth-child(1) {
+    align-self: center;
+}
+.category__business--list-item, .individual-store__title {
     padding: 1rem;
 }

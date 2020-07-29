@@ -29,6 +29,11 @@ a {
     color: white;
 }
 
+
+/* html {
+    background: linear-gradient(blue, white);
+} */
+
 .header{
     color: white;
     background-color: var(--color-2);
@@ -59,4 +64,7 @@ body {
     padding:1em;
     color: white;
 
+}
+.contact__title, .category__business--title, .about__mission--title, .individual-store__title {
+    font-size: 30pt;
 }
