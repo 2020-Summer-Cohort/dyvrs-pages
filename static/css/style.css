@@ -72,3 +72,14 @@ body {
     color:black;
     border: 2px solid var(--color-3);
 }
+.index__category--item a{
+    background-color: var(--color-3);
+    margin:5px;
+    border-radius:50%;
+    padding: 150px;
+    color: white;
+}
+.index__category--container li{
+    display: flex;
+margin: 10em;
+}
