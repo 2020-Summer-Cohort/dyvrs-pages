@@ -26,9 +26,19 @@ padding: 0px;
 .footer{
     padding: 2em;
     display: grid;
-    grid-template-columns: 5fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
 }
 .footer__copyright{ 
-    justify-content: right;
+    text-align: right;
 }
 
+.about__mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.about__mission--paragraph {
+    text-align: center;
+}
