@@ -19,13 +19,37 @@
             </ul>
         </nav>
     </header>
-    <section class="suggestion__section">
-        <div class="suggestion__title">How can we improve?</div>
-        <ul class="suggestion__container">
-            <li class="suggestion__item">Your Name:</li>
-            <li class="suggestion__item">Email:</li>
-            <li class="suggestion__item">Drop Down:</li>
-            <li class="suggestion__item">Additional Comments:</li>
+</style>
+<body>
+
+<h3>How Can we Improve</h3>
+
+<div class = "suggestion__div">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	<label for="lname">Email</label>
+    <input type="text" id="email" name="email" placeholder="Email you can be reached at..">
+  
+    <label for="reason_for_contact">Reason For Contact</label>
+    <select id="contact_reason" name="contact_reason">
+      <option value="suggest_new_business">Suggest New Business</option>
+      <option value="improvement_suggestions">Suggestions for Improvement</option>
+      <option value="question_about_website">Questions about Website</option>
+      <option value="other">Other</option>
+    </select>
+      <label for="lname">Aditional Comments</label>
+    <input type="text" id="add_comments" name="comments" placeholder="Additional comments">
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
         </ul>
     </section>
     <footer class="footer">
