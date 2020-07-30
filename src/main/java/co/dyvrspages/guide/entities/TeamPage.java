@@ -15,7 +15,7 @@ public class TeamPage {
     private String funFacts;
     private String linkedIn;
 
-
+    protected TeamPage(){};
 
     public TeamPage(String name, String photo, String funFacts, String linkedIn) {
         this.name = name;

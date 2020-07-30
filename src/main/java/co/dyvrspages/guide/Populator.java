@@ -51,12 +51,12 @@ public class Populator implements CommandLineRunner {
         StorePage store6 = new StorePage("Arne Boutique","(614) 806-5613", "2704 Billingsley Rd, Columbus, OH 43235","https://www.arneus.com/","W-S: 1PM-7PM, Sun: 1PM-6PM, & M-T: Closed ","","Clothing boutique specializing in traditional Indian apparel, shoes & accessories for women & men."," Saree, Shirts, Tops, Men's Apparel, & Shoes",category2);
         StorePage store7 = new StorePage("Pipes & Pleasures","(614) 235-6422\n", "4244 E. Main St. Columbus, Oh 43213","https://www.facebook.com/LuvOurPipesandCigars","M-F: 12PM-5PM, S: 10:30AM-9PM, & Sun: Closed","","Looking for premium smoking pipes, tobacco, and cigars in Columbus, OH? Pipes & Pleasures is your destination. Visit out Espinosa Cigar Lounge.","Pipes, Tobacco, and Cigars",category3);
 
-        StorePage store8 = new StorePage("","", "","","","","","","");
+        StorePage store8 = new StorePage("Patel Brothers","(614) 792-8484","6600 Sawmill Rd, Columbus, OH 43235","https://www.patelbros.com/specials/6600-saw-mill-rd-columbus","W-M: 11AM-8PM T: Closed","","At Patel Brothers, our mission is to bring the best ingredients from around the world, right to your doorstep. With a wide variety of authentic regional ingredients, we strive to reconnect people with the familiar flavor of India.","Frozen Foods, Produce, Spices, Dried Goods, & Indian Sweets",category5);
 
         StorePage store9 = new StorePage("","", "","","","","","","");
 
 
-        StorePage store10 = new StorePage("Patel Brothers","(614) 792-8484","6600 Sawmill Rd, Columbus, OH 43235","https://www.patelbros.com/specials/6600-saw-mill-rd-columbus","W-M: 11AM-8PM T: Closed","","At Patel Brothers, our mission is to bring the best ingredients from around the world, right to your doorstep. With a wide variety of authentic regional ingredients, we strive to reconnect people with the familiar flavor of India.","Frozen Foods, Produce, Spices, Dried Goods, & Indian Sweets",category5);
+        StorePage store10 = new StorePage("""""""");
     }
 
 

@@ -17,6 +17,8 @@ public class CategoryLists {
     @OneToMany(mappedBy = "categoryLists")
     private Collection<StorePage> storePage;
 
+    protected CategoryLists(){};
+
     public CategoryLists(String name, String image) {
         this.name = name;
         this.image = image;

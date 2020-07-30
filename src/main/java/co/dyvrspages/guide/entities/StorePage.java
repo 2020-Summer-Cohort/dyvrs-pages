@@ -22,6 +22,8 @@ public class StorePage {
     @ManyToOne
     private CategoryLists categoryLists;
 
+    protected StorePage(){};
+
     public StorePage(String name, String phoneNumber, String address, String website, String storeHours, String image, String description, String productList, CategoryLists categoryLists) {
         this.name = name;
         this.phoneNumber = phoneNumber;
