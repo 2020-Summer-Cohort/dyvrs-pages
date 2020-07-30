@@ -79,7 +79,7 @@ body {
     padding: 50px;
     color: white;
 }
-.index__category--container li{
+.index__category--container a{
 display:grid;
 grid-row: 2 / 4;
 margin: 10em;
