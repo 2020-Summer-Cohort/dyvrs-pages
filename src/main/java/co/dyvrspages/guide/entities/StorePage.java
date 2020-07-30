@@ -1,6 +1,16 @@
-package co.dyvrspages.guide;
+package co.dyvrspages.guide.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
+
+@Entity
 public class StorePage {
+
+    @Id
+    @GeneratedValue
+    private long id;
     private String name;
     private String phoneNumber;
     private String address;
@@ -9,8 +19,10 @@ public class StorePage {
     private String image;
     private String description;
     private String productList;
+    @ManyToOne
+    private CategoryLists categoryLists;
 
-    public StorePage(String name, String phoneNumber, String address, String website, String storeHours, String image, String description, String productList) {
+    public StorePage(String name, String phoneNumber, String address, String website, String storeHours, String image, String description, String productList, CategoryLists categoryLists) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.address = address;
@@ -19,9 +31,19 @@ public class StorePage {
         this.image = image;
         this.description = description;
         this.productList = productList;
+        this.categoryLists = categoryLists;
     }
+
+    public CategoryLists getCategoryLists() {
+        return categoryLists;
+    }
+
     public String getName() {
         return name;
+    }
+
+    public long getId() {
+        return id;
     }
 
     public String getPhoneNumber() {

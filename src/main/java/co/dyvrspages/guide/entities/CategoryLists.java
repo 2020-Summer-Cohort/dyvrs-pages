@@ -1,6 +1,9 @@
-package co.dyvrspages.guide;
+package co.dyvrspages.guide.entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import java.util.Collection;
 
 @Entity
@@ -12,7 +15,7 @@ public class CategoryLists {
     private String name;
     private String image;
     @OneToMany(mappedBy = "categoryLists")
-    private Collection<IndividualCategoryPage> individualCategoryPage;
+    private Collection<StorePage> storePage;
 
     public CategoryLists(String name, String image) {
         this.name = name;
