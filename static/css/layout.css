@@ -9,13 +9,17 @@
 }
 .header__nav {
   align-self: center;
+
 }
 .header {
-  padding: 2em;
   display: grid;
   grid-row: 1;
+  position: top;
   grid-template-columns: 2fr 1fr;
+  z-index: 150;
+  width: 100vw;
 }
+
 .footer {
   padding: 2em;
   display: grid;
@@ -278,3 +282,10 @@ select {
       justify-content: space-evenly;
     }
 }    
+@media only screen and (max-width: 500px){
+.header {
+    display: block;
+    position: top;
+    z-index: 150;
+    width: 100vw;
+  }}

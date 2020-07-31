@@ -60,6 +60,7 @@ body {
   border: 2px solid var(--color-3);
   border-radius: 15%;
   color: white;
+  overflow: hidden;
 }
 .footer a:hover,
 .header__nav li:hover {
