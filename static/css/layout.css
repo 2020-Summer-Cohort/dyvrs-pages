@@ -225,10 +225,11 @@ select {
   border-radius: 50%;
   border: solid burlywood 5px;
 }
-/* .center img{
+ .center img{ 
     min-width: 12em;
     max-width: 12em;
-} */
+    border-radius: 0px;
+}
 
 .user-update-log-in__section,
 .new-user-form__container {
@@ -273,6 +274,14 @@ select {
 }
 .index__spot-light {
   margin: 13em 0 10em;
+}
+.business__owner_container input[type="text"]{
+  display: flex;
+  justify-content: space-evenly;
+}
+.business_list-item {
+text-align: center;
+align-items: flex-start;
 }
 
 .index__single-category--name {
