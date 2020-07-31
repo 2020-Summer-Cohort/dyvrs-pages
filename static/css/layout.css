@@ -256,11 +256,17 @@ select {
   padding: 3em;
   margin: 1em;
   max-width: 9em;
-  color: black;
-  background-color: blue;
+  color: black; 
+  background-color:bisque ;
+
+}
+.business__owner_container input[type="text"]{
+    display: flex;
+    justify-content: space-evenly;
 }
 .business_list-item {
   text-align: center;
+  align-items: flex-start;
 }
 .index__category--title {
   margin-bottom: 7em;
