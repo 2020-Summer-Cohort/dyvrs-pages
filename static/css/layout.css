@@ -229,6 +229,34 @@ select {
   display: grid;
   grid-template-rows: 1;
 }
+.suggestion__div input,
+.suggestion__div select{
+    display:grid;
+    content: center;
+    grid-template-rows: 1;
+    text-emphasis: larger;
+}
+.suggestion__div select{
+    max-width: 40em;
+}
+.suggestion__div{
+    max-width: 40em;
+}
+.suggestion__div h3{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+.suggestion_parent_div{
+    margin-top:3em;
+    display:flex;
+    
+    content:center;
+    justify-content: center;
+    align-items: center;
+}
+.suggestion_parent_div input[type="text"]{
+    min-width: 20em;
+}
 
 input[type="text"],
 select {
@@ -276,6 +304,16 @@ select {
 }
 
 .index__single-category--name {
+}
+.input[type="text"],	
+select {	
+  width: 100%;	
+  padding: 12px 20px;	
+  margin: 8px 0;	
+  display: inline-block;	
+  border: 1px solid #ccc;	
+  border-radius: 4px;	
+  box-sizing: border-box;	
 }
 
 @media only screen and (max-width: 768px){
