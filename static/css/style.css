@@ -96,3 +96,6 @@ body {
 .index__single-category--name {
   color: blue;
 }
+.category__business--list-item a{
+    color: black;
+}
