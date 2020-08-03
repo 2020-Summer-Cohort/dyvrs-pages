@@ -13,10 +13,10 @@ import org.springframework.stereotype.Component;
 public class Populator implements CommandLineRunner {
 
     @Autowired
-    CategoryRepository categoryListRepo;
+    CategoryRepository categoryRepo;
 
     @Autowired
-    StoreRepository storePageRepo;
+    StoreRepository storeRepo;
 
     @Autowired
     TeamRepository teamRepo;
@@ -33,14 +33,14 @@ public class Populator implements CommandLineRunner {
         Category category7 = new Category("Lodging", "");
         Category category8 = new Category("Associations", "");
 
-        categoryListRepo.save(category1);
-        categoryListRepo.save(category2);
-        categoryListRepo.save(category3);
-        categoryListRepo.save(category4);
-        categoryListRepo.save(category5);
-        categoryListRepo.save(category6);
-        categoryListRepo.save(category7);
-        categoryListRepo.save(category8);
+        categoryRepo.save(category1);
+        categoryRepo.save(category2);
+        categoryRepo.save(category3);
+        categoryRepo.save(category4);
+        categoryRepo.save(category5);
+        categoryRepo.save(category6);
+        categoryRepo.save(category7);
+        categoryRepo.save(category8);
 
 
         Store store1 = new Store("Awadh India Restaurant", "(614)-914-8884", "2584 Bethel Rd, Columbus, OH 43220", "https://awadhindiarestaurant.com/", "W-S: 12-10PM & M&T:5-PM", "", "It was established as one of the twelve original subahs (top-level imperial provinces) under 16th-century Mughal emperor Akbar and became a hereditary tributary polity around 1722, with Faizabad as its initial capital and Saadat Ali Khan as its first Subadar Nawab and progenitor of a dynasty of Nawabs of Awadh.", "Vegan Friendly & Indian Food", category1);
@@ -73,5 +73,39 @@ public class Populator implements CommandLineRunner {
         Store store28 = new Store("The National Black MBA Association", "NA", "NA", "http://columbusbmba.org/", "NA", "", "The National Black MBA Association® (NBMBAA) was founded in 1970 at a two-day conference held at the University of Chicago, by a group of African American MBA students, faculty, advisors, and businessmen. Founded in 1993, the NBMBAA Columbus Chapter has created programs that helped professional career minded people as well as our youth. Being named Chapter of the Year six times in a row, the Columbus Chapter has been very proactive in the Central Ohio Community.", "Community & Networking Events", category8);
         Store store29 = new Store("Central Ohio African American Chamber of Commerce", "614-377-4874", "P.O. Box 83233, Columbus, Ohio 43203", "http://www.coaacc.org/", "NA", "", "The Central Ohio African American Chamber of Commerce (COAACC) opened for membership on  January 18, 2018 with the vision of being the premiere advocate for Black Owned businesses in our region. COAACC is a one-stop shop that develops, advocates, and educates on issues impacting the inclusion and growth of Black owned businesses in Central Ohio. We provide business development opportunities, access to capital, entry into new markets, and relationship building through strategic partnership and collaborative opportunities. We work to position our members, and all Black Owned businesses, as desirable, qualified, and capable business candidates.", "Community & Networking Events", category8);
         Store store30 = new Store("Disability Rights Ohio", "(800) 282-9181", "200 S Civic Center Dr #300, Columbus, OH 43215", "https://www.disabilityrightsohio.org/", "NA", "", "We envision a society in which people with disabilities are full and equal members, enjoy the rights and opportunities of all people, are self-directed, make decisions about where, how and with whom they will live, learn, work and play, have access to needed services and supports, and are free from abuse, neglect, exploitation and discrimination.", "Community & Networking Events", category8);
+
+
+        storeRepo.save(store1);
+        storeRepo.save(store2);
+        storeRepo.save(store3);
+        storeRepo.save(store4);
+        storeRepo.save(store5);
+        storeRepo.save(store6);
+        storeRepo.save(store7);
+        storeRepo.save(store8);
+        storeRepo.save(store9);
+        storeRepo.save(store10);
+        storeRepo.save(store11);
+        storeRepo.save(store12);
+        storeRepo.save(store13);
+        storeRepo.save(store14);
+        storeRepo.save(store15);
+        storeRepo.save(store16);
+        storeRepo.save(store17);
+        storeRepo.save(store18);
+        storeRepo.save(store19);
+        storeRepo.save(store20);
+        storeRepo.save(store21);
+        storeRepo.save(store22);
+        storeRepo.save(store23);
+        storeRepo.save(store24);
+        storeRepo.save(store25);
+        storeRepo.save(store26);
+        storeRepo.save(store27);
+        storeRepo.save(store28);
+        storeRepo.save(store29);
+        storeRepo.save(store30);
+
+
     }
 }

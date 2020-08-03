@@ -1,3 +1,45 @@
+GET http://localhost:8080/api/stores/17
+
+<> 2020-08-03T113220.200.json
+
+###
+
+GET http://localhost:8080/api/stores/5
+
+<> 2020-08-03T112905.500.json
+
+###
+
+GET http://localhost:8080/api/stores/5
+
+<> 2020-08-03T112230.500.json
+
+###
+
+GET http://localhost:8080/api/stores/5
+
+<> 2020-08-03T110833.500.json
+
+###
+
+GET http://localhost:8080/api/category/6
+
+<> 2020-08-03T110739.200.json
+
+###
+
+GET http://localhost:8080/api/category/7
+
+<> 2020-08-03T110714.200.json
+
+###
+
+GET http://localhost:8080/api/index/
+
+<> 2020-08-03T110646.200.json
+
+###
+
 GET http://localhost:8080/api/index/
 
 <> 2020-08-03T110310.200.json

@@ -1,9 +1,6 @@
 package co.dyvrspages.guide.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
 public class Store {
@@ -17,6 +14,8 @@ public class Store {
     private String website;
     private String storeHours;
     private String image;
+    @Column(length = 100000)
+    @Lob
     private String description;
     private String productList;
     @ManyToOne
