@@ -35,4 +35,8 @@ public class Category {
     public String getImage() {
         return image;
     }
+
+    public Collection<Store> getStore() {
+        return store;
+    }
 }

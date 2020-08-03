@@ -6,3 +6,10 @@ GET http://localhost:8080/api/stores/17
 ###
 GET http://localhost:8080/api/team/39
 
+###
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+
+}
