@@ -29,4 +29,8 @@ public class StoreStorage {
     public void save(Store store) {
         storeRepo.save(store);
     }
+
+    public void delete(long id) {
+        storeRepo.deleteById(id);
+    }
 }

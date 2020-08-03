@@ -20,15 +20,30 @@ public class StoreController {
         return storeStorage;
     }
 
-@GetMapping("/api/stores/{id}")
-    public Store findStoreById(@PathVariable long id){
+    @GetMapping("/api/stores/{id}")
+    public Store findStoreById(@PathVariable long id) {
         return storeStorage.findById(id);
-}
-@PostMapping("/api/categories/store/add/")
-public Collection<Store> addStore(@RequestBody Store store) {
-        storeStorage.save(store);
-            return storeStorage.findAllStores();
-}
+    }
 
+    @PostMapping("/api/categories/store/add/")
+    public Collection<Store> addStore(@RequestBody Store store) {
+        storeStorage.save(store);
+        return storeStorage.findAllStores();
+    }
+
+    @PatchMapping("/api/categories/{id}/update-store/")
+    public Store updateStoreInfo(@PathVariable long id, @RequestBody Store store) {
+        Store storeToUpdate = storeStorage.findById(id);
+        Store updateToStore = new Store(store.getName(), store.getPhoneNumber(), store.getAddress(), store.getWebsite(), store.getStoreHours(), store.getImage(), store.getDescription(), store.getProductList(), store.getCategory());
+       storeStorage.save(updateToStore);
+        return null;
+    }
+
+    @DeleteMapping("/api/categories/{id}/")
+    public Collection<Store> deleteStore(@PathVariable long id){
+        storeStorage.delete(id);
+        return storeStorage.findAllStores();
+
+    }
 
 }

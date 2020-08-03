@@ -11,5 +11,13 @@ POST http://localhost:8080/api/categories/store/add/
 Content-Type: application/json
 
 {
-
+"name":"Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
 }
