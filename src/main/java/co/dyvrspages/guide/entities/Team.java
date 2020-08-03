@@ -5,7 +5,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class TeamPage {
+public class Team {
 
     @Id
     @GeneratedValue
@@ -15,9 +15,9 @@ public class TeamPage {
     private String funFacts;
     private String linkedIn;
 
-    protected TeamPage(){};
+    protected Team(){};
 
-    public TeamPage(String name, String photo, String funFacts, String linkedIn) {
+    public Team(String name, String photo, String funFacts, String linkedIn) {
         this.name = name;
         this.photo = photo;
         this.funFacts = funFacts;

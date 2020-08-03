@@ -7,19 +7,19 @@ import javax.persistence.OneToMany;
 import java.util.Collection;
 
 @Entity
-public class CategoryLists {
+public class Category {
 
     @Id
     @GeneratedValue
     private long id;
     private String name;
     private String image;
-    @OneToMany(mappedBy = "categoryLists")
-    private Collection<StorePage> storePage;
+    @OneToMany(mappedBy = "category")
+    private Collection<Store> store;
 
-    protected CategoryLists(){};
+    protected Category(){};
 
-    public CategoryLists(String name, String image) {
+    public Category(String name, String image) {
         this.name = name;
         this.image = image;
     }

@@ -1,7 +1,7 @@
 package co.dyvrspages.guide.storages.repositories;
 
-import co.dyvrspages.guide.entities.Team;
+import co.dyvrspages.guide.entities.Store;
 import org.springframework.data.repository.CrudRepository;
 
-public interface TeamRepository extends CrudRepository<Team, Long> {
+public interface StoreRepository extends CrudRepository<Store, Long> {
 }

@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 
 @Entity
-public class StorePage {
+public class Store {
 
     @Id
     @GeneratedValue
@@ -20,11 +20,11 @@ public class StorePage {
     private String description;
     private String productList;
     @ManyToOne
-    private CategoryLists categoryLists;
+    private Category category;
 
-    protected StorePage(){};
+    protected Store(){};
 
-    public StorePage(String name, String phoneNumber, String address, String website, String storeHours, String image, String description, String productList, CategoryLists categoryLists) {
+    public Store(String name, String phoneNumber, String address, String website, String storeHours, String image, String description, String productList, Category category) {
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.address = address;
@@ -33,11 +33,11 @@ public class StorePage {
         this.image = image;
         this.description = description;
         this.productList = productList;
-        this.categoryLists = categoryLists;
+        this.category = category;
     }
 
-    public CategoryLists getCategoryLists() {
-        return categoryLists;
+    public Category getCategory() {
+        return category;
     }
 
     public String getName() {
