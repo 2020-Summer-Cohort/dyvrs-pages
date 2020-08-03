@@ -2,6 +2,7 @@ package co.dyvrspages.guide;
 
 import co.dyvrspages.guide.entities.Category;
 import co.dyvrspages.guide.entities.Store;
+import co.dyvrspages.guide.entities.Team;
 import co.dyvrspages.guide.storages.repositories.CategoryRepository;
 import co.dyvrspages.guide.storages.repositories.StoreRepository;
 import co.dyvrspages.guide.storages.repositories.TeamRepository;
@@ -106,6 +107,24 @@ public class Populator implements CommandLineRunner {
         storeRepo.save(store29);
         storeRepo.save(store30);
 
+        Team team1 = new Team("Robyn Chambers", "string", "Loves gardening.", "www.linkedin.com/in/robyn-chambers");
+        Team team2 = new Team("Jason Orabella", "string", "I've bred endangered fish", "https://www.linkedin.com/in/jason-osu/");
+        Team team3 = new Team("Christin Banerjee", "string", "My favorite movie is Meet Me in St Louis.", "https://www.linkedin.com/in/christin-banerjee/");
+        Team team4 = new Team("Mignonne Silva", "string", "TBA", "https://www.linkedin.com/in/mignonne-silva/");
+        Team team5 = new Team("Cameron Resuta", "string", "I love sushi.", "https://www.linkedin.com/in/cameron-resuta/");
+        Team team6 = new Team("Shawn Daniels", "string", "Gay penguins adopt the offspring of their fallen comrades.", "https://www.linkedin.com/in/drshawndaniels/");
+
+        teamRepo.save(team1);
+        teamRepo.save(team2);
+        teamRepo.save(team3);
+        teamRepo.save(team4);
+        teamRepo.save(team5);
+        teamRepo.save(team6);
+
+
+
+
 
     }
 }
+

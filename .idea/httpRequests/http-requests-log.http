@@ -1,3 +1,39 @@
+GET http://localhost:8080/api/team/39
+
+<> 2020-08-03T115747.200.json
+
+###
+
+GET http://localhost:8080/api/team/39
+
+<> 2020-08-03T115208.404.json
+
+###
+
+GET http://localhost:8080/api/team/39
+
+<> 2020-08-03T115109.404.json
+
+###
+
+GET http://localhost:8080/api/team/38
+
+<> 2020-08-03T115100.404.json
+
+###
+
+GET http://localhost:8080/api/team/45
+
+<> 2020-08-03T114952.404.json
+
+###
+
+GET http://localhost:8080/api/team/40
+
+<> 2020-08-03T114935.404.json
+
+###
+
 GET http://localhost:8080/api/stores/17
 
 <> 2020-08-03T113220.200.json
