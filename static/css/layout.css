@@ -249,6 +249,7 @@ select {
 .suggestion_parent_div{
     margin-top:3em;
     display:flex;
+    border-radius:90%;
     
     content:center;
     justify-content: center;
