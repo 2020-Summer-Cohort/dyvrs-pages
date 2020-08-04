@@ -1,8 +1,12 @@
 import {
     fetchCategory
-} from "../api-helper.js"
+} from "../fetch-api.js"
 
-const createCategory = (categoryId) => {
+export {
+    renderCategory
+}
+
+const renderCategory = (categoryId) => {
     fetchCategory(categoryId).then(category, () => {
         const ul = document.createElement('ul');
        
