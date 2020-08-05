@@ -1,5 +1,7 @@
 package co.dyvrspages.guide.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -18,6 +20,7 @@ public class Store {
     @Lob
     private String description;
     private String productList;
+    @JsonIgnore
     @ManyToOne
     private Category category;
 

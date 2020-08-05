@@ -1,3 +1,15 @@
+GET http://localhost:8080/api/category/3/
+
+<> 2020-08-05T012537.200.json
+
+###
+
+GET http://localhost:8080/api/category/6/
+
+<> 2020-08-05T012508.200.json
+
+###
+
 GET http://localhost:8080/api/category/6/
 
 <> 2020-08-05T111148.200.json

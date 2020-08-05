@@ -1,6 +1,6 @@
 GET http://localhost:8080/api/index/
 ###
-GET http://localhost:8080/api/category/6/
+GET http://localhost:8080/api/category/3/
 ###
 GET http://localhost:8080/api/stores/17/
 ###
