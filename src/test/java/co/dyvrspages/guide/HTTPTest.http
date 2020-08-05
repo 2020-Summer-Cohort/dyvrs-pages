@@ -2,7 +2,7 @@ GET http://localhost:8080/api/index/
 ###
 GET http://localhost:8080/api/category/3/
 ###
-GET http://localhost:8080/api/stores/17/
+GET http://localhost:8080/api/stores/23/
 ###
 GET http://localhost:8080/api/team/39/
 

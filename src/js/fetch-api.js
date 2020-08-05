@@ -1,7 +1,7 @@
 export {
     fetchCategory,
-    // fetchStore,
-    // fetchTeam
+    fetchStore,
+    fetchTeam
 }
 
 const fetchCategory = async (id) => {
@@ -12,12 +12,12 @@ const fetchCategory = async (id) => {
         .then(response => response.json())
 }
 
-// const fetchStore = async (id) => {
-//     return fetch(`http://localhost:8080/api/stores/${id}`)
-//         .then(response => response.json())
-// }
+const fetchStore = async (id) => {
+    return fetch(`http://localhost:8080/api/stores/${id}`)
+        .then(response => response.json())
+}
 
-// const fetchTeam = async (id) => {
-//     return fetch(`http://localhost:8080/api/team/${id}`)
-//         .then(response => response.json())
-// }
+const fetchTeam = async (id) => {
+    return fetch(`http://localhost:8080/api/team/${id}`)
+        .then(response => response.json())
+}
