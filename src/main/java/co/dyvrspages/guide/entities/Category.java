@@ -1,5 +1,7 @@
 package co.dyvrspages.guide.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -14,6 +16,7 @@ public class Category {
     private long id;
     private String name;
     private String image;
+    @JsonIgnore
     @OneToMany(mappedBy = "category")
     private Collection<Store> store;
 
