@@ -55,7 +55,7 @@ html {
 
 .header__logo {
   font-family: Federo, "sans serif";
-  padding-top: .75em;
+  padding: auto ;
 }
 
 .footer a {
