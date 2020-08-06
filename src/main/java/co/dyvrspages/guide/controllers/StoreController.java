@@ -25,6 +25,11 @@ public class StoreController {
         return storeStorage.findById(id);
     }
 
+    @GetMapping("/api/store/random/")
+    public Store findRandomStore(){
+        return storeStorage.findRandom();
+    }
+
     @PostMapping("/api/categories/store/add/")
     public Collection<Store> addStore(@RequestBody Store store) {
         storeStorage.save(store);
@@ -35,12 +40,12 @@ public class StoreController {
     public Store updateStoreInfo(@PathVariable long id, @RequestBody Store store) {
         Store storeToUpdate = storeStorage.findById(id);
         Store updateToStore = new Store(store.getName(), store.getPhoneNumber(), store.getAddress(), store.getWebsite(), store.getStoreHours(), store.getImage(), store.getDescription(), store.getProductList(), store.getCategory());
-       storeStorage.save(updateToStore);
+        storeStorage.save(updateToStore);
         return null;
     }
 
     @DeleteMapping("/api/categories/{id}/")
-    public Collection<Store> deleteStore(@PathVariable long id){
+    public Collection<Store> deleteStore(@PathVariable long id) {
         storeStorage.delete(id);
         return storeStorage.findAllStores();
 
