@@ -1,4 +1,4 @@
-export { fetchCategory, fetchStore, fetchTeam };
+export { fetchCategory, fetchStore, fetchTeam, fetchSpotlight };
 
 const fetchCategory = async (id) => {
   return (
