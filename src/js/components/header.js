@@ -35,7 +35,7 @@ const renderHeader = () => {
             <li class="header__list-item"><a href="./userUpdate-longIn.html">Log In</a></li>
         </ul>
     </nav>
-    `
+    `;
     console.log('hello inside');
     const body = document.querySelector('.main');
     body.prepend(header);
