@@ -301,3 +301,13 @@ select {
     z-index: 150;
     width: 100vw;
   }}
+
+  #new-user-page{
+    display: none;
+  }
+  #update-user-login{
+    display: none;
+  }
+  #portal-page{
+  display: none;
+  }
