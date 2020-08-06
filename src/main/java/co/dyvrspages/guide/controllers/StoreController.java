@@ -25,7 +25,7 @@ public class StoreController {
         return storeStorage.findById(id);
     }
 
-    @GetMapping("/api/store/random/")
+    @GetMapping("/api/stores/random/")
     public Store findRandomStore(){
         return storeStorage.findRandom();
     }
