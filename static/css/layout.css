@@ -302,12 +302,6 @@ select {
     width: 100vw;
   }}
 
-  #new-user-page{
+  .hidden {
     display: none;
-  }
-  #update-user-login{
-    display: none;
-  }
-  #portal-page{
-  display: none;
   }
