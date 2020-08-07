@@ -1,3 +1,31 @@
+GET http://localhost:8080/api/store/random/
+
+<> 2020-08-06T113106.200.json
+
+###
+
+GET http://localhost:8080/api/store/random/
+
+<> 2020-08-06T113059.200.json
+
+###
+
+GET http://localhost:8080/api/store/random/
+
+###
+
+GET http://localhost:8080/api/store/random/
+
+<> 2020-08-06T113010.200.json
+
+###
+
+GET http://localhost:8080/api/store/random/
+
+<> 2020-08-06T110325.404.json
+
+###
+
 GET http://localhost:8080/api/stores/23/
 
 <> 2020-08-05T014658.200.json

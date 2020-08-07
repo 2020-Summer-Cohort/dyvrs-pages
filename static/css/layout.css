@@ -45,13 +45,16 @@
 .about__mission {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   margin: 3rem;
 }
 
 .about__mission--paragraph {
-  text-align: center;
+  /* text-align: center; */
+  margin :0 7em;
+  /* justify-self: center; */
+  
 }
 
 .category__business--img {
@@ -167,7 +170,7 @@ select {
   display: block;
   /* overflow: hidden; */
   position: absolute;
-  top: 75%;
+  top: 70%;
   left: 50%;
   width: 6em;
   height: 6em;
@@ -305,3 +308,13 @@ select {
     z-index: 150;
     width: 100vw;
   }}
+
+  #new-user-page{
+    display: none;
+  }
+  #update-user-login{
+    display: none;
+  }
+  #portal-page{
+  display: none;
+  }

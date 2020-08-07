@@ -5,6 +5,8 @@ GET http://localhost:8080/api/category/3/
 GET http://localhost:8080/api/stores/23/
 ###
 GET http://localhost:8080/api/team/39/
+###
+GET http://localhost:8080/api/store/random/
 
 ###
 POST http://localhost:8080/api/categories/store/add/
