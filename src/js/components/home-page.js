@@ -1,6 +1,6 @@
-import { fetchSpotlight } from "../fetch-api.js";
+import { fetchSpotlight, fetchAllCategories } from "../fetch-api.js";
 
-export { renderSpotlightOne };
+export { renderSpotlightOne, renderCategoryCircle };
 
 const renderSpotlightOne = () => {
     for(let i = 0; i<5; i++){
@@ -14,4 +14,27 @@ const renderSpotlightOne = () => {
     const ul = document.querySelector(".index__spot-light--container-list");
     ul.appendChild(spotlightOne);
   });
-}};
+
+  }};
+
+  const renderCategoryCircle = () => {
+    console.log("render cat");
+    fetchAllCategories().then((categories)=>{
+      const indexCategory = document.querySelector(".index__category")
+      indexCategory.innerHTML=
+      ` 
+      <a href="./categories.html" class='center'><img src="http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-thumb.jpg" alt="Company Name Here Photo"></a> -->
+      <a href="./categories.html" class='deg0'><img src="../images/Health&Wellness.png"><h4 class="index__single-category--name">Health and Wellness</h4></a>
+      <a href='./categories.html' class='deg45'><img src='../images/GasStation.jpg'><h4 class="index__single-category--name">Gas Station</h4></a>
+      <a href='./categories.html' class='deg90'><img src='../images/Apparel.png'><h4 class="index__single-category--name">Apparel</h4></a>    
+      <a href='./categories.html' class='deg135'><img src='../images/GroceryStore.png'><h4 class="index__single-category--name">Grocery Store</h4></a>
+      <a href='./categories.html' class='deg180'><img src='../images/Association.png'><h4 class="index__single-category--name">Association</h4></a>
+      <a href='./categories.html' class='deg225'><img src='../images/ConsumerServices.png'><h4 class="index__single-category--name">Consumer Services</h4></a>
+      <a href='./categories.html' class='deg270'><img src='../images/Lodging.png'><h4 class="index__single-category--name">Lodging</h4></a>
+      <a href='./categories.html' class='deg315'><img src='../images/Food.png'><h4 class="index__single-category--name">Food</h4></a>
+     `
+     const div = document.querySelector("index__circle_container");
+     div.appendChild(indexCategory);
+        })
+        console.log(indexCategory);
+      }
