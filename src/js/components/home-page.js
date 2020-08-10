@@ -21,7 +21,10 @@ const renderSpotlightOne = () => {
     console.log("render cat");
     fetchAllCategories().then((categories)=>{
       const indexCategory = document.querySelector(".index__category")
-      indexCategory.innerHTML=
+      const indexCircleContainer = document.createElement("div")
+      indexCircleContainer.classList.add("index__circle_container")
+      
+      indexCircleContainer.innerHTML=
       ` 
       <a href="./categories.html" class='center'><img src="http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-thumb.jpg" alt="Company Name Here Photo"></a> -->
       <a href="./categories.html" class='deg0'><img src="../images/Health&Wellness.png"><h4 class="index__single-category--name">Health and Wellness</h4></a>
@@ -33,8 +36,8 @@ const renderSpotlightOne = () => {
       <a href='./categories.html' class='deg270'><img src='../images/Lodging.png'><h4 class="index__single-category--name">Lodging</h4></a>
       <a href='./categories.html' class='deg315'><img src='../images/Food.png'><h4 class="index__single-category--name">Food</h4></a>
      `
-     const div = document.querySelector("index__circle_container");
-     div.appendChild(indexCategory);
+     indexCategory.appendChild(indexCircleContainer);
+     console.log(indexCircleContainer);
         })
         console.log(indexCategory);
       }
