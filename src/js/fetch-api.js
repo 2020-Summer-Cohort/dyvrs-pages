@@ -27,3 +27,8 @@ const fetchSpotlight = async () => {
     response.json()
   );
 };
+const fetchAllCategories = async () => {
+  return fetch("http://localhost:8080/api/index/").then((response) =>
+    response.json()
+  );
+};

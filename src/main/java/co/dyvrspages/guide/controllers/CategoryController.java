@@ -36,4 +36,5 @@ public class CategoryController {
     public Collection<Store> findAllStoresInCateogry(@PathVariable long id) {
         return categoryStorage.findById(id).getStore();
     }
+
 }

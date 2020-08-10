@@ -36,13 +36,22 @@ public class StoreController {
         return storeStorage.findAllStores();
     }
 
-    @PatchMapping("/api/categories/{id}/update-store/")
+
+    @PatchMapping("/api/stores/{id}/update-store/")
     public Store updateStoreInfo(@PathVariable long id, @RequestBody Store store) {
         Store storeToUpdate = storeStorage.findById(id);
         Store updateToStore = new Store(store.getName(), store.getPhoneNumber(), store.getAddress(), store.getWebsite(), store.getStoreHours(), store.getImage(), store.getDescription(), store.getProductList(), store.getCategory());
         storeStorage.save(updateToStore);
-        return null;
+        return
     }
+
+    @PatchMapping("/api/stores/{id}/update-store/")
+    public Store updateStoreInfo(@PathVariable long id, @RequestBody Store store) {
+        Store storeToUpdate = storeStorage.findById(id);
+        storeToUpdate.setPhoneNumber(store.getPhoneNumber());
+        storeToUpdate.setBusinessHours(store.getBusinessHours());
+        storeStorage.save(updateToStore);
+        return updateToStore;
 
     @DeleteMapping("/api/categories/{id}/")
     public Collection<Store> deleteStore(@PathVariable long id) {
@@ -50,5 +59,6 @@ public class StoreController {
         return storeStorage.findAllStores();
 
     }
+
 
 }
