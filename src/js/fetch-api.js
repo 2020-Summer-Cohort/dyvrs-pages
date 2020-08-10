@@ -1,4 +1,4 @@
-export { fetchCategory, fetchStore, fetchTeam, fetchSpotlight, fetchAllCategories };
+export { fetchCategory, fetchStore, fetchTeam, fetchSpotlight, fetchAllCategories, fetchCat1 };
 
 const fetchCategory = async (id) => {
   return (
@@ -31,5 +31,12 @@ const fetchSpotlight = async () => {
 const fetchAllCategories = async () => {
   return fetch(`http://localhost:8080/api/index/`).then((response) =>
     response.json()
+  );
+};
+
+const fetchCat1 = async () => {
+  return (
+  fetch(`http://localhost:8080/api/category/1/`)
+  .then((response) => response.json())
   );
 };
