@@ -2,6 +2,28 @@ export {
     renderHeader
 }
 
+
+
+console.log('hello first');
+const renderHeader = () => {
+    const header = document.createElement('header');
+    header.classList.add('header');
+    header.innerHTML = `
+    <h1 class="header__logo"><a href="./index.html">Dyvrs Pages</a></h1>
+    <nav class="header__nav">
+        <ul class= "header__container">
+            <li class="header__list-item"><a href="./businessOwnerPage.html">Owner Portal</a></li>
+            <li class="header__list-item"><a href="./about.html">Mission</a> </li>
+        </ul>
+    </nav>
+    `;
+    
+    console.log('hello inside');
+    const body = document.querySelector('.individual-store__main');
+    console.log(body)
+    body.prepend(header);
+}
+
 // const renderHeader = () => {
 //     const header = document.createElement('header');
 //     header.classList.add('header');
@@ -20,21 +42,3 @@ export {
 //     return head.appendChild(header);
 // }
 // Scratch work
-
-console.log('hello first');
-const renderHeader = () => {
-    const header = document.createElement('header');
-    header.classList.add('header');
-    header.innerHTML = `
-    <h1 class="header__logo"><a href="./index.html">Dyvrs Pages</a></h1>
-    <nav class="header__nav">
-        <ul class= "header__container">
-            <li class="header__list-item"><a href="./businessOwnerPage.html">Owner Portal</a></li>
-            <li class="header__list-item"><a href="./about.html">Mission</a> </li>
-        </ul>
-    </nav>
-    `;
-    console.log('hello inside');
-    const body = document.querySelector('.main');
-    body.prepend(header);
-}
