@@ -1,10 +1,7 @@
 import { renderHeader } from "../components/header.js"
 import { renderFooter } from "../components/footer.js"
+import { renderContactUs } from "../components/contactUs.js"
 
 renderHeader();
 renderFooter();
-
-import { renderIndividualStore  } from "../components/individual-store.js"
-
-renderIndividualStore(25);
-
+renderContactUs();
