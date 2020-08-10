@@ -1,5 +1,7 @@
 package co.dyvrspages.guide.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -18,6 +20,7 @@ public class Store {
     @Lob
     private String description;
     private String productList;
+    @JsonIgnore
     @ManyToOne
     private Category category;
 
@@ -75,4 +78,43 @@ public class Store {
         return productList;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setWebsite(String website) {
+        this.website = website;
+    }
+
+    public void setStoreHours(String storeHours) {
+        this.storeHours = storeHours;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setProductList(String productList) {
+        this.productList = productList;
+    }
+
+    public void setCategory(Category category) {
+        this.category = category;
+    }
 }

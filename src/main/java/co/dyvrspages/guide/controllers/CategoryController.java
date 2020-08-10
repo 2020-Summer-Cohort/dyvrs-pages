@@ -27,16 +27,13 @@ public class CategoryController {
         return categoryStorage.findAll();
     }
 
-    @GetMapping("/api/category/{id}")
-    public Category findCategoryById(@PathVariable Long id){
+    @GetMapping("/api/category/{id}/")
+    public Category findCategoryById(@PathVariable Long id) {
         return categoryStorage.findById(id);
     }
 
     @GetMapping("/api/category/{id}/stores/")
-    public Collection<Store> findAllStoresInCateogry(@PathVariable long id){
+    public Collection<Store> findAllStoresInCateogry(@PathVariable long id) {
         return categoryStorage.findById(id).getStore();
     }
-
-
-
 }

@@ -1,21 +1,23 @@
+@import url(https://fonts.googleapis.com/css2?family=Andika&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Federo&display=swap);
 * {
   list-style: none;
 }
-/* :root{
+:root{
     --color-1:#011627;
     --color-2:#FF3366;
     --color-3:#2EC4B6;
     --color-4:#F6F7F8;
     --color-5:#20A4F3;
-} */
+}
 
-:root {
+/* :root {
   --color-1: #cb48b7;
   --color-2: #2e2d4d;
   --color-3: #337357;
   --color-4: #6d9f71;
   --color-5: #e4e3d3;
-}
+} */
 
 /* :root{
     --color-1:#734B5E;
@@ -39,23 +41,32 @@ html {
 
 .header {
   color: white;
-  background-color: var(--color-2);
+  background-color: var(--color-1);
 }
 .footer {
   color: white;
-  background-color: var(--color-2);
+  background-color: var(--color-1);
 }
 
-body {
-  font-family: sans-serif;
+* body {
+  font-family: Andika, "sans-serif";
+  font-size: 20px;
 }
 
 .header__logo {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Federo, "sans serif";
+  padding: auto ;
 }
 
-.footer a,
+.footer a {
+  padding: 1em;
+   border-radius: 15%; 
+     color: white;
+  overflow: hidden;
+}
 .header__nav li {
+  margin-top: 1em;
+  margin-bottom: 1em;
   padding: 1em;
   border: 2px solid var(--color-3);
   border-radius: 15%;
