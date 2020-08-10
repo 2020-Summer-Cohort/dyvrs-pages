@@ -31,6 +31,8 @@ const renderCategory = (categoryId) => {
     }
 )}
 
+//event listener click> id
+
 
 
 
