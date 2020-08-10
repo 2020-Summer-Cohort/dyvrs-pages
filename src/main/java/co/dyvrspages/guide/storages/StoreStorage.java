@@ -35,11 +35,12 @@ public class StoreStorage {
     public void delete(long id) {
         storeRepo.deleteById(id);
     }
-     public Store findRandom(){
-         Random random = new Random();
-         List<Store> storeList = (List<Store>) storeRepo.findAll();
-         int randomIndex = random.nextInt(storeList.size());
-         return storeList.get(randomIndex);
-     }
+
+    public Store findRandom() {
+        Random random = new Random();
+        List<Store> storeList = (List<Store>) storeRepo.findAll();
+        int randomIndex = random.nextInt(storeList.size());
+        return storeList.get(randomIndex);
+    }
 
 }
