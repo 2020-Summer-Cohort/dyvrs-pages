@@ -1,3 +1,227 @@
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T024544.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T023907.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T023812.200.json
+
+###
+
+GET http://localhost:8080/api/stores/23/
+
+<> 2020-08-07T022420.200.json
+
+###
+
+PATCH http://localhost:8080/api/categories/4/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T022131.200.json
+
+###
+
+PATCH http://localhost:8080/api/categories/{id}/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T021727.500.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name":"Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-07T021137.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+<> 2020-08-07T021019.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/{id}/update-store/
+Content-Type: application/json
+
+{
+  "name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+###
+
+PATCH http://localhost:8080/api/categories/4/update-store/
+Content-Type: application/json
+
+{
+  "name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+###
+
+PATCH http://localhost:8080/api/categories//update-store/
+Content-Type: application/json
+
+{
+  "name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+<> 2020-08-07T020611.405.json
+
+###
+
+PATCH http://localhost:8080/api/store/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+<> 2020-08-07T015518.200.json
+
+###
+
+PATCH http://localhost:8080/api/store/38/update-store/
+Content-Type: application/json
+
+{
+"name": "TEST",
+  "phoneNumber": "1-800-TEST"
+}
+
+<> 2020-08-07T015429.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+"name":"Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-07T015159.200.json
+
+###
+
 GET http://localhost:8080/api/store/random/
 
 <> 2020-08-06T113106.200.json
