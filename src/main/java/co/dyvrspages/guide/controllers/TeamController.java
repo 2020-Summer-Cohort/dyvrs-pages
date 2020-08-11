@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RestController
 public class TeamController {
-    private TeamStorage teamStorage;
+    private final TeamStorage teamStorage;
 
     public TeamController(TeamStorage teamStorage) {
         this.teamStorage = teamStorage;
@@ -22,11 +22,12 @@ public class TeamController {
     }
 
     @GetMapping("/api/team/")
-    public Collection<Team> findAllTeamMembers(){
+    public Collection<Team> findAllTeamMembers() {
         return teamStorage.findAll();
     }
+
     @GetMapping("/api/team/{id}")
-    public Team findById(@PathVariable long id){
+    public Team findById(@PathVariable long id) {
         return teamStorage.findById(id);
     }
 }

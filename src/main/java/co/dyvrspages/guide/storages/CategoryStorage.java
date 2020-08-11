@@ -8,7 +8,7 @@ import java.util.Collection;
 
 @Service
 public class CategoryStorage {
-    private CategoryRepository categoryRepo;
+    private final CategoryRepository categoryRepo;
 
     public CategoryStorage(CategoryRepository categoryRepo) {
         this.categoryRepo = categoryRepo;

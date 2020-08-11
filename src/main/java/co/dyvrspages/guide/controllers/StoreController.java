@@ -1,20 +1,18 @@
 package co.dyvrspages.guide.controllers;
 
 
-import co.dyvrspages.guide.entities.Category;
 import co.dyvrspages.guide.entities.Store;
 import co.dyvrspages.guide.storages.CategoryStorage;
 import co.dyvrspages.guide.storages.StoreStorage;
-import co.dyvrspages.guide.storages.repositories.StoreRepository;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
 
 @RestController
 public class StoreController {
-    private StoreStorage storeStorage;
+    private final StoreStorage storeStorage;
 
-    private CategoryStorage categoryStorage;
+    private final CategoryStorage categoryStorage;
 
     public StoreController(StoreStorage storeStorage, CategoryStorage categoryStorage) {
         this.storeStorage = storeStorage;
@@ -32,7 +30,7 @@ public class StoreController {
     }
 
     @GetMapping("/api/stores/random/")
-    public Store findRandomStore(){
+    public Store findRandomStore() {
         return storeStorage.findRandom();
     }
 
