@@ -8,8 +8,7 @@ const renderFooter = () => {
         <nav class="footer__nav">
             <ul class="footer__container">
                 <li class="footer__list-item"><a href="./contactUs.html">Contact Us</a></li>
-                <li class="footer__list-item"><a href="./userUpdate-longIn.html">Log In</a></li>
-                <li class="footer__list-item"><a href="./newUserForm.html">Create Account</a></li>
+                <li class="header__list-item"><a href="./businessOwnerPage.html">Owner Portal</a></li>
                 <li class="footer__list-item"><a href="./team.html">Team</a></li>
                 <li class="footer__list-item"><a href="./suggestion .html">Suggestions</a></li>
                 <li class="footer__list-item"><a href="./categories.html">Categories</a></li>
