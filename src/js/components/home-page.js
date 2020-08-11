@@ -1,5 +1,8 @@
 import { fetchSpotlight, fetchAllCategories } from "../fetch-api.js";
+import{renderCategory} from "./individual-category.js"
 export { renderSpotlightOne, renderCategoryCircle };
+
+
 const renderSpotlightOne = () => {
   for(let i = 0; i<5; i++){
     fetchSpotlight().then((store) => {
@@ -14,7 +17,7 @@ const renderSpotlightOne = () => {
     });
   }};
   const renderCategoryCircle = () => {
-    console.log("render cat");
+    console.log("render categorycircle");
     fetchAllCategories().then((category)=>{
       const indexCategory = document.querySelector(".index__category");
       const indexCircleContainer = document.createElement("div");
@@ -27,6 +30,9 @@ const renderSpotlightOne = () => {
           <img src="${category[i].image}"><h4 class="index__single-category--name">${category[i].name}</h4>
         `;
         degree += 45;
+        categoryClick.addEventListener("click", () => {
+        renderCategory(category[i].id);
+        });
         indexCircleContainer.appendChild(categoryClick);
       }
         indexCategory.appendChild(indexCircleContainer);
