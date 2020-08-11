@@ -12,7 +12,7 @@ import java.util.Collection;
 
 @RestController
 public class CategoryController {
-    private CategoryStorage categoryStorage;
+    private final CategoryStorage categoryStorage;
 
     public CategoryController(CategoryStorage categoryStorage) {
         this.categoryStorage = categoryStorage;

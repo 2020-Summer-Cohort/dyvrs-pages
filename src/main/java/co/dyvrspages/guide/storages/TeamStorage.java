@@ -9,7 +9,7 @@ import java.util.Collection;
 
 @Service
 public class TeamStorage {
-    private TeamRepository teamRepo;
+    private final TeamRepository teamRepo;
 
     public TeamStorage(TeamRepository teamRepo) {
         this.teamRepo = teamRepo;

@@ -1,10 +1,14 @@
 GET http://localhost:8080/api/index/
+
 ###
 GET http://localhost:8080/api/category/3/
+
 ###
 GET http://localhost:8080/api/stores/23/
+
 ###
 GET http://localhost:8080/api/team/39/
+
 ###
 GET http://localhost:8080/api/store/random/
 
@@ -13,7 +17,7 @@ POST http://localhost:8080/api/categories/store/add/
 Content-Type: application/json
 
 {
-"name":"Test",
+  "name": "Test",
   "phoneNumber": "Test",
   "address": "Test",
   "website": "Test",
@@ -23,12 +27,13 @@ Content-Type: application/json
   "productList": "Test",
   "category": "category1"
 }
+
 ###
 PATCH http://localhost:8080/api/stores/38/update-store/
 Content-Type: application/json
 
 {
-  "name":"Test1",
+  "name": "Test1",
   "phoneNumber": "Test1",
   "address": "Test1",
   "website": "Test1",

@@ -10,7 +10,7 @@ import java.util.Random;
 
 @Service
 public class StoreStorage {
-    private StoreRepository storeRepo;
+    private final StoreRepository storeRepo;
 
     public StoreStorage(StoreRepository storeRepo) {
         this.storeRepo = storeRepo;
