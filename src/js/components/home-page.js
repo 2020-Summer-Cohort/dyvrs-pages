@@ -8,6 +8,7 @@ const renderSpotlightOne = () => {
     const spotlightOne = document.createElement("li");
     spotlightOne.classList.add("index__spot-light--list-item");
     spotlightOne.innerHTML = `
+        <img class="index__spot-light--img" src="${store.image}" alt="Company Name Here Photo">
         <div class="index__spot-light--company-name">${store.name}</div>
         `;
     const ul = document.querySelector(".index__spot-light--container-list");
@@ -27,7 +28,7 @@ const renderSpotlightOne = () => {
         const categoryClick = document.createElement('a');
         categoryClick.classList.add(`deg${degree}`);
         categoryClick.innerHTML = `
-        <img><h4 class="index__single-category--name">${category[i].name}</h4>
+        <img src=""><h4 class="index__single-category--name">${category[i].name}</h4>
         `
         degree += 45;
         indexCircleContainer.appendChild(categoryClick);
