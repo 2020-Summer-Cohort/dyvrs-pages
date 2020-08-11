@@ -1,3 +1,15 @@
+GET http://localhost:8080/api/team/39/
+
+<> 2020-08-11T021444.200.json
+
+###
+
+GET http://localhost:8080/api/team/39/
+
+<> 2020-08-11T020040.200.json
+
+###
+
 PATCH http://localhost:8080/api/stores/38/update-store/
 Content-Type: application/json
 
