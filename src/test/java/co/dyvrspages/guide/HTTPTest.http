@@ -7,7 +7,9 @@ GET http://localhost:8080/api/stores/23/
 GET http://localhost:8080/api/team/39/
 ###
 GET http://localhost:8080/api/store/random/
-
+###
+GET http://localhost:8080/api/teams/RobynChambers/
+###
 ###
 POST http://localhost:8080/api/categories/store/add/
 Content-Type: application/json

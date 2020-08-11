@@ -26,4 +26,8 @@ public class TeamStorage {
     public Team findById(Long id) {
         return teamRepo.findById(id).get();
     }
+
+    public Team findByName(String name) {
+            return teamRepo.findByName(name);
+    }
 }

@@ -107,7 +107,7 @@ public class Populator implements CommandLineRunner {
         storeRepo.save(store29);
         storeRepo.save(store30);
 
-        Team team1 = new Team("Robyn Chambers", "string", "Loves gardening.", "www.linkedin.com/in/robyn-chambers");
+        Team team1 = new Team("RobynChambers", "string", "Loves gardening.", "www.linkedin.com/in/robyn-chambers");
         Team team2 = new Team("Jason Orabella", "string", "I've bred endangered fish", "https://www.linkedin.com/in/jason-osu/");
         Team team3 = new Team("Christin Banerjee", "string", "My favorite movie is Meet Me in St Louis.", "https://www.linkedin.com/in/christin-banerjee/");
         Team team4 = new Team("Mignonne Silva", "string", "TBA", "https://www.linkedin.com/in/mignonne-silva/");

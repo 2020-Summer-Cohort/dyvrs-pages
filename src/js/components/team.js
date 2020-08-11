@@ -24,7 +24,7 @@ const renderTeam = (id) => {
     })
 
     const h2 = document.querySelector('.team__title')
-    h2.innerHTML = category.name
+    h2.innerHTML = teamMember.name;
     h2.appendChild(ul);
 }
 )}

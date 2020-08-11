@@ -29,4 +29,8 @@ public class TeamController {
     public Team findById(@PathVariable long id){
         return teamStorage.findById(id);
     }
+
+    @GetMapping("/api/teams/{name}/")
+    public Team findById(@PathVariable String name){
+        return teamStorage.findByName(name);}
 }

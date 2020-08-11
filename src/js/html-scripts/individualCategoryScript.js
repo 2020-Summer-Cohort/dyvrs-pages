@@ -8,4 +8,4 @@ import {
     renderCategory
 } from '../components/individual-category.js'
 
-renderCategory(4);
+renderCategory(6);

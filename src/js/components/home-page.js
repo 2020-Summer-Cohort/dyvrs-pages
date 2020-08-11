@@ -29,7 +29,7 @@ const renderSpotlightOne = () => {
         categoryClick.classList.add(`deg${degree}`);
         categoryClick.innerHTML = `
 
-        <img src=""><h4 class="index__single-category--name"> th:each="category: ${category.name} </h4>
+        <img src=""><h4 class="index__single-category--name"> ${category.name} </h4> ${category.id}
         `
         degree += 45;
         indexCircleContainer.appendChild(categoryClick);

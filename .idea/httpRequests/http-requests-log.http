@@ -1,3 +1,27 @@
+GET http://localhost:8080/api/teams/RobynChambers/
+
+<> 2020-08-11T023517.404.json
+
+###
+
+GET http://localhost:8080/api/team/RobynChambers/
+
+<> 2020-08-11T023234.400.json
+
+###
+
+GET http://localhost:8080/api/team/RobynChambers/
+
+<> 2020-08-11T023153.400.json
+
+###
+
+GET http://localhost:8080/api/team/Robyn
+
+<> 2020-08-11T023103.400.json
+
+###
+
 GET http://localhost:8080/api/team/39/
 
 <> 2020-08-11T021444.200.json

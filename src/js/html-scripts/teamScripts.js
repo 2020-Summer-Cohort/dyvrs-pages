@@ -4,4 +4,4 @@ import {renderTeam} from "../components/team.js"
 
 renderHeader();
 renderFooter();
-renderTeam(id);
+renderTeam();
