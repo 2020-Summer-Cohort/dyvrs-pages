@@ -16,16 +16,16 @@ const renderSpotlightOne = () => {
   const renderCategoryCircle = () => {
     console.log("render cat");
     fetchAllCategories().then((category)=>{
-      const indexCategory = document.querySelector(".index__category")
-      const indexCircleContainer = document.createElement("div")
-      indexCircleContainer.classList.add("index__circle_container")
+      const indexCategory = document.querySelector(".index__category");
+      const indexCircleContainer = document.createElement("div");
+      indexCircleContainer.classList.add("index__circle_container");
       let degree = 0;
       for (let i = 0; i < category.length; i++) {
         const categoryClick = document.createElement('a');
         categoryClick.classList.add(`deg${degree}`);
         categoryClick.innerHTML = `
           <img src="${category[i].image}"><h4 class="index__single-category--name">${category[i].name}</h4>
-          `
+        `;
         degree += 45;
         indexCircleContainer.appendChild(categoryClick);
       }
