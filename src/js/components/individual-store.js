@@ -1,9 +1,16 @@
 import { fetchStore } from "../fetch-api.js"
+
 export { renderIndividualStore }
-console.log("Howdy, y'all part 1");
+
+
+console.log("calling individual store js correctly");
 const renderIndividualStore = (storeId) => {
     fetchStore(storeId).then(store => {
-        
+        const mainBody = document.querySelector(".main");
+        console.log("inside render individual store")
+        const h3 = document.createElement("h2");
+        h3.classList.add("individual-store__title");
+        mainBody.appendChild(h3);
         const h2 = document.querySelector(".individual-store__title");
         h2.innerHTML = store.name;
         const storeGridContainer = document.createElement("div");

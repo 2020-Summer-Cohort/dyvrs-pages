@@ -1,6 +1,7 @@
 import { fetchCategory } from "../fetch-api.js";
 
 import { clearElementChildren } from "../components/clearElementChildren.js";
+import{renderIndividualStore} from "../components/individual-store.js"
 
 export { renderCategory };
 console.log("calling individual category js file");
@@ -27,11 +28,15 @@ const renderCategory = (categoryId) => {
       const li = document.createElement("li");
       li.classList.add("category__business--list-item");
       li.innerHTML = `
-            <a href="./individualStore.html" > 
+            <a> 
                 <img class="category__business--img" src="${store.image}" alt="${store.name} Photo">
                 <div class="category__business--company-name">${store.name}</div>
             </a>
         `;
+        li.addEventListener("click", () => {
+          alert("clicking on store")
+          renderIndividualStore(store.id);
+          });
       ul.appendChild(li);
     });
     // const h2 = document.querySelector('.category__business--title');
