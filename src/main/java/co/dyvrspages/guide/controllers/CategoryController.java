@@ -4,6 +4,7 @@ package co.dyvrspages.guide.controllers;
 import co.dyvrspages.guide.entities.Category;
 import co.dyvrspages.guide.entities.Store;
 import co.dyvrspages.guide.storages.CategoryStorage;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,4 +37,5 @@ public class CategoryController {
     public Collection<Store> findAllStoresInCateogry(@PathVariable long id) {
         return categoryStorage.findById(id).getStore();
     }
+
 }
