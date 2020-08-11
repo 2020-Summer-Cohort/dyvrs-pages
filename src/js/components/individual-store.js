@@ -3,6 +3,7 @@ export { renderIndividualStore }
 console.log("Howdy, y'all part 1");
 const renderIndividualStore = (storeId) => {
     fetchStore(storeId).then(store => {
+        
         const h2 = document.querySelector(".individual-store__title");
         h2.innerHTML = store.name;
         const storeGridContainer = document.createElement("div");
@@ -32,3 +33,9 @@ const renderIndividualStore = (storeId) => {
         h2.appendChild(gridContainerItem2);
     })
 }
+
+{/* <section class="category__business">
+<div class="category__business--container">
+    <h2 class="category__business--title">Restaurants</h2>
+</div>
+</section> */}
