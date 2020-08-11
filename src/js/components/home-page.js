@@ -17,7 +17,7 @@ const renderSpotlightOne = () => {
     });
   }};
   const renderCategoryCircle = () => {
-    console.log("render cat");
+    console.log("render categorycircle");
     fetchAllCategories().then((category)=>{
       const indexCategory = document.querySelector(".index__category");
       const indexCircleContainer = document.createElement("div");
