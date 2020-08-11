@@ -120,11 +120,5 @@ public class Populator implements CommandLineRunner {
         teamRepo.save(team4);
         teamRepo.save(team5);
         teamRepo.save(team6);
-
-
-
-
-
     }
 }
-
