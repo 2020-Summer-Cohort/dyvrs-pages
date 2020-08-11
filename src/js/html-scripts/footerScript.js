@@ -1,5 +1,2 @@
-import {
-    renderFooter
-} from '../components/footer.js'
-
+import {renderFooter} from '../components/footer.js'
 renderFooter();

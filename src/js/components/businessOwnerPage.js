@@ -1,7 +1,4 @@
-export{
-    renderBusinessOwnerPage,
-    updateOwnerPageFunction
-}
+export{renderBusinessOwnerPage,updateOwnerPageFunction}
 console.log("above");
 const renderBusinessOwnerPage = () => {
     const portalPage = document.querySelector("#portal-page");
@@ -23,5 +20,4 @@ const renderBusinessOwnerPage = () => {
     console.log("inside");
 function updateOwnerPageFunction() {
     console.log("test");
-}
-  
+}  

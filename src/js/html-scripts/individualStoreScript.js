@@ -1,10 +1,6 @@
-import { renderHeader } from "../components/header.js"
-import { renderFooter } from "../components/footer.js"
-
+import { renderHeader } from '../components/header.js'
+import { renderFooter } from '../components/footer.js'
 renderHeader();
 renderFooter();
-
-import { renderIndividualStore  } from "../components/individual-store.js"
-
+import { renderIndividualStore  } from '../components/individual-store.js'
 renderIndividualStore(25);
-
