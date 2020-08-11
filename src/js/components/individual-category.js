@@ -18,7 +18,7 @@ const renderCategory = (categoryId) => {
         li.classList.add("category__business--list-item")
         li.innerHTML = `
             <a href="./individualStore.html" > 
-            <img class="category__business--img" src="/static/images/spotLightImg.png" alt="${store.name} Photo">
+            <img class="category__business--img" src="/static/images/${store.image}" alt="${store.name} Photo">
             <div class="category__business--company-name">${store.name}</div>
             </a>
         `
