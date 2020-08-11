@@ -1,24 +1,18 @@
 import { fetchStore } from "../fetch-api.js"
-
 export { renderIndividualStore }
-
 console.log("Howdy, y'all part 1")
-
 const renderIndividualStore = (storeId) => {
-    
     fetchStore(storeId).then(store => {
         const h2 = document.querySelector(".individual-store__title")
         h2.innerHTML = store.name
         const storeGridContainer = document.createElement("div")
         storeGridContainer.classList.add("individual-store__gridContainer")
         h2.appendChild(storeGridContainer)
-
         const storeImageListContainer = document.createElement("ul")
         storeGridContainer.appendChild(storeImageListContainer)
         const storeImageListItem = document.createElement("li")
         storeImageListItem.innerHTML = `<img class="individual-store__img" src="../images/spotLightImg.png" alt="Company Name Here Photo"></img>`
         storeGridContainer.appendChild(storeImageListItem)
-
         const gridContainerItem2 = document.createElement("div")
         gridContainerItem2.classList.add("individual-store__gridContainerItem2")
         gridContainerItem2.innerHTML = `
@@ -36,6 +30,5 @@ const renderIndividualStore = (storeId) => {
             <p class="individual-store__about-paragraph">${store.description}</p>
             `
         h2.appendChild(gridContainerItem2)
-
-})
+    })
 }

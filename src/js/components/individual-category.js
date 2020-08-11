@@ -18,7 +18,7 @@ const renderCategory = (categoryId) => {
                 <img class="category__business--img" src="/static/images/${store.image}" alt="${store.name} Photo">
                 <div class="category__business--company-name">${store.name}</div>
             </a>
-        `
+            `
         ul.appendChild(li);
         })
         const h2 = document.querySelector('.category__business--title')
