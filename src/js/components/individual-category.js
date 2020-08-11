@@ -31,19 +31,3 @@ const renderCategory = (categoryId) => {
     }
 )}
 
-
-
-
-// for (let i = 0; i < category.store.length; i++){
-//     const li = document.createElement('li');
-//     li.classList.add('category__business--img')
-//     const storeImg = new image;
-//     storeImg.src = categories.store[i].image;
-//     `
-//         <a href="./individualStore.html" > 
-//         <img class="category__business--img" src="${category.store[i].image}" alt="Company Name Here Photo">
-//         <div class="category__business--company-name">${category.store[i].name}</div>
-//         </a>
-//     `
-//     ul.appendChild(li);
-//     }

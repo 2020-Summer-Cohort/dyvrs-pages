@@ -3,9 +3,6 @@ export { fetchCategory, fetchStore, fetchTeam, fetchSpotlight, fetchAllCategorie
 const fetchCategory = async (id) => {
   return (
     fetch(`http://localhost:8080/api/category/${id}/`)
-      //         .then(response =>{console.log(response.json());
-      //         return response;
-      // })
       .then((response) => response.json())
   );
 };
