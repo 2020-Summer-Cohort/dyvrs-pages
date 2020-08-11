@@ -14,9 +14,7 @@ const renderSpotlightOne = () => {
     const ul = document.querySelector(".index__spot-light--container-list");
     ul.appendChild(spotlightOne);
   });
-
   }};
-
   const renderCategoryCircle = () => {
     console.log("render cat");
     fetchAllCategories().then((category)=>{
@@ -33,7 +31,6 @@ const renderSpotlightOne = () => {
         degree += 45;
         indexCircleContainer.appendChild(categoryClick);
       }
-
     //   indexCircleContainer.innerHTML=
     //   ` 
     //   <a href="./categories.html" class='deg0 id4'><img src="../images/Health&Wellness.png"><h4 class="index__single-category--name">${category.name}</h4></a>
@@ -45,8 +42,6 @@ const renderSpotlightOne = () => {
     //   <a href='./categories.html' class='deg270 id7'><img src='../images/Lodging.png'><h4 class="index__single-category--name">Lodging</h4></a>
     //   <a class='deg315 id1'><img src='../images/Food.png'><h4 class="index__single-category--name">Food</h4></a>
     //  `
-      
-
-     indexCategory.appendChild(indexCircleContainer);
+         indexCategory.appendChild(indexCircleContainer);
         })
       }
