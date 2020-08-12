@@ -8,7 +8,7 @@ const renderHeader = () => {
     header.innerHTML = `
         <h1 class="header__logo">  
             <a href="./index.html">
-            <img class="logo" src="../../static/images/book2.jpg" alt="Photo!" />
+            <img class="logo" src="../../static/images/book.jpg" alt="logo" />
             </a>
         </h1>
             <nav class="header__nav">
