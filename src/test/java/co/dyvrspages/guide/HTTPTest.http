@@ -4,7 +4,7 @@ GET http://localhost:8080/api/index/
 GET http://localhost:8080/api/category/3/
 
 ###
-GET http://localhost:8080/api/stores/23/
+GET http://localhost:8080/api/stores/38/
 
 ###
 GET http://localhost:8080/api/team/39/
@@ -42,4 +42,12 @@ Content-Type: application/json
   "description": "Test1",
   "productList": "Test1",
   "category": "category1"
+}
+###
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "address": "Hogwarts"
 }

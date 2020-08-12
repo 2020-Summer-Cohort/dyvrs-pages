@@ -51,15 +51,33 @@ public class StoreController {
     @PatchMapping("/api/stores/{id}/update-store/")
     public Store updateStoreInfo(@PathVariable long id, @RequestBody Store store) {
         Store storeToUpdate = storeStorage.findById(id);
+        if (store.getName() != null) {
         storeToUpdate.setName(store.getName());
+        }
+        if (store.getPhoneNumber() != null) {
         storeToUpdate.setPhoneNumber(store.getPhoneNumber());
-        storeToUpdate.setAddress(store.getAddress());
-        storeToUpdate.setWebsite(store.getWebsite());
-        storeToUpdate.setStoreHours(store.getStoreHours());
-        storeToUpdate.setImage(store.getImage());
-        storeToUpdate.setDescription(store.getDescription());
-        storeToUpdate.setProductList(store.getProductList());
-        storeToUpdate.setCategory(store.getCategory());
+        }
+        if (store.getAddress() != null) {
+            storeToUpdate.setAddress(store.getAddress());
+        }
+        if (store.getWebsite() != null) {
+            storeToUpdate.setWebsite(store.getWebsite());
+        }
+        if (store.getStoreHours() != null) {
+            storeToUpdate.setStoreHours(store.getStoreHours());
+        }
+        if (store.getImage() != null) {
+            storeToUpdate.setImage(store.getImage());
+        }
+        if (store.getDescription() != null) {
+            storeToUpdate.setDescription(store.getDescription());
+        }
+        if (store.getProductList() != null) {
+            storeToUpdate.setProductList(store.getProductList());
+        }
+        if (store.getCategory() != null) {
+            storeToUpdate.setCategory(store.getCategory());
+        }
         storeStorage.save(storeToUpdate);
         return storeToUpdate;
     }
