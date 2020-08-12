@@ -46,8 +46,8 @@ html {
     color: var(--color-4);
 }
 
-.contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
-    font-size: 30pt;
+.team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
+    font-size: x-large;
 }
 .individual-store__info-item a {
     color: var(--color-1);
