@@ -19,7 +19,7 @@ const renderIndividualStore = (storeId) => {
         h2.innerHTML = store.name;
         const storeGridContainer = document.createElement("div");
         storeGridContainer.classList.add("individual-store__gridContainer");
-        h2.append(storeGridContainer);
+        mainBody.appendChild(storeGridContainer);
         const storeImageListContainer = document.createElement("ul");
         storeGridContainer.appendChild(storeImageListContainer);
         const storeImageListItem = document.createElement("li");
@@ -45,8 +45,8 @@ const renderIndividualStore = (storeId) => {
     })
 }
 
-{/* <section class="category__business">
+/* <section class="category__business">
 <div class="category__business--container">
     <h2 class="category__business--title">Restaurants</h2>
 </div>
-</section> */}
+</section> */
