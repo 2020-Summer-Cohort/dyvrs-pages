@@ -17,9 +17,9 @@ public class Populator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Category category1 = new Category("&nbsp; &nbsp; &nbsp; Restaurants", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Food.png");
+        Category category1 = new Category(" Restaurants", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Food.png");
         Category category2 = new Category("&nbsp; &nbsp;Apparel", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Apparel.png");
-        Category category3 = new Category(" &nbsp; Consumer<br>&nbsp; &nbsp;Services", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/ConsumerServices.png");
+        Category category3 = new Category(" &nbsp;Consumer<br> &nbsp; Services", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/ConsumerServices.png");
         Category category4 = new Category("&nbsp; &nbsp;Health &<br>&nbsp; Wellness", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Health%26Wellness.png");
         Category category5 = new Category(" &nbsp; &nbsp; Grocery<br>&nbsp; &nbsp; &nbsp;Stores", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GroceryStore.png");
         Category category6 = new Category("&nbsp; &nbsp;Petrol<br>&nbsp; Stations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GasStation.png");
