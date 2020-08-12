@@ -27,9 +27,6 @@
     _position: absolute;
     width: 98%;
 }
-.footer__nav {
-    align-self: center;
-}
 .footer__container {
     display: flex;
     justify-content: space-evenly; 
@@ -70,9 +67,6 @@
 .category__business--title, .contact__title, .team__title, .index__category--title, .index__spot-light--title {
     margin: 2em;
 }
-.individual-store__main {
-    margin: 3rem;
-}
 .individual-store__title {
     margin-bottom: 2rem;
 }
@@ -89,6 +83,16 @@
 .category__business--list-item {
     padding: 1rem;
 }
+.header__nav li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-radius: 15%;
+}
+.footer__nav li {
+    padding: .5em;
+    border-radius: 15%;
+}
 .individual-store__img {
     max-width: 400px;
     border: 5px;
@@ -96,17 +100,16 @@
 }
 .individual-store__gridContainer {
     display: grid;
-    /* background-color: aqua; */
     grid-template-columns: 1fr 3fr;
 }
 .individual-store__product_list_container {
     display: flex;
 }
 .individual-store__item,.individual-store__info-item {
-    padding: 1em;
+    padding: .5em;
 }
 .individual-store__info-item a {
-    padding: 1em;
+    padding: .5em;
 }
 input[type="text"], select {
     width: 100%;
