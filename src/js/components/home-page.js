@@ -18,6 +18,7 @@ const renderSpotlightOne = () => {
       ul.appendChild(spotlightOne);
     });
   }};
+  
   const renderCategoryCircle = () => {
     console.log("render categorycircle");
     fetchAllCategories().then((category)=>{

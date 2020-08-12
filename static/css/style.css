@@ -82,3 +82,8 @@ html {
 .category__business--list-item a {
     color: black;
 }
+
+.team__item img {
+    max-width: 200px;
+    max-height: 200px;
+}

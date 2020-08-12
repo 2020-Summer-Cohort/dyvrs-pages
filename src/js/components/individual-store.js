@@ -9,6 +9,7 @@ console.log("calling individual store js correctly");
 const renderIndividualStore = (storeId) => {
     fetchStore(storeId).then(store => {
         const mainBody = document.querySelector(".main");
+        mainBody.classList.add("individual-store__main");
         clearElementChildren(mainBody);
         console.log("inside render individual store")
         const h3 = document.createElement("h2");
@@ -24,7 +25,7 @@ const renderIndividualStore = (storeId) => {
         storeGridContainer.appendChild(storeImageListContainer);
         const storeImageListItem = document.createElement("li");
         storeImageListItem.innerHTML = `<img class="individual-store__img" src=${store.image} alt="Company Photo ">`
-        storeGridContainer.appendChild(storeImageListItem);
+        storeImageListContainer.appendChild(storeImageListItem);
         const gridContainerItem2 = document.createElement("div");
         gridContainerItem2.classList.add("individual-store__gridContainerItem2");
         gridContainerItem2.innerHTML = `
