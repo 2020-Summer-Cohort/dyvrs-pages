@@ -43,7 +43,7 @@
     align-items: center;
     margin: 3rem;
 }
- .index__spot-light--img, .category__business--list-item img, .contact__item img {
+ .index__spot-light--img, .contact__item img {
     max-height: 150px;
     max-width: 150px;
     min-width: 100px;
