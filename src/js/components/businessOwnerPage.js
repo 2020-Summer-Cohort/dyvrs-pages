@@ -16,5 +16,19 @@ const renderBusinessOwnerPage = () => {
         newUserPage.classList.toggle("hidden");
         console.log("Inside newUserButton - businessOwnerPage.js");
     })
+
+    // Submit button
+    const submitButton = document.querySelector(".update__submit-button");
+    const updatePhoneNumber = document.querySelector(".update__phone-number");
+    const updateEmail = document.querySelector(".update__email");
+    const updateWebsite = document.querySelector(".update__website");
+    const updateBusinessHours = document.querySelector(".update__business-hours");
+    const updateAbout = document.querySelector(".update__about");
+    const updateProductList = document.querySelector(".update__product-list");
+    submitButton.addEventListener("click", ()=> {
+        const store = {
+            phoneNumber: phoneNumber.value,
+        }
+    })
 }
 
