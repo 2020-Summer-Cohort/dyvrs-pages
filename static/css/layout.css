@@ -15,17 +15,17 @@
     position: top;
     grid-template-columns: 2fr 1fr;
     z-index: 150;
-    width: 100vw;
+    width: 100%;
 }
 .footer {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     bottom: 0;
-    position: fixed;
     z-index: 150;
     _position: absolute;
     width: 98%;
+    margin-top: 1em;
 }
 .footer__container {
     display: flex;
@@ -36,28 +36,45 @@
     margin-right: 2em;
     padding-top: 10px;
 }
-.about__mission {
+.about__mission, .team__title, .category__business--title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 3rem;
 }
-.category__business--img, .index__spot-light--img {
+ .index__spot-light--img, .contact__item img {
     max-height: 150px;
     max-width: 150px;
     min-width: 100px;
+    min-height: 100px;
+}
+.category__business--list-item img, .contact__item img {
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.team__item img {
+    max-height: 200px;
+    max-width: 200px;
+}
+.team__item {
+    min-width: 20%;
+    margin-left: 8%;
+    margin-bottom: 3%;
+}
+ .category__business--list-item {
+    min-width: 20%;
+    margin-left: 8%;
+    margin-bottom: 3%;
 }
 .logo{
     max-height: 100px;
     max-width: 100px;   
 }
-.contact__item img {
-    max-height: 200px;
-    max-width: 200px;
-}
 .category__business--title, .contact__title, .team__title, .index__category--title, .index__spot-light--title, .individual-store__title {
-    margin: 2em;
+    margin: 1em;
 }
 .individual-store__title {
     text-align: left;
@@ -68,6 +85,14 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 1rem;
+}
+.contact__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8rem;
+    margin-bottom: 8.5rem;
 }
 .category__business--list-item {
     padding: 1rem;
@@ -91,7 +116,6 @@ iframe {
 }
 .individual-store__gridContainer {
     display: grid;
-    /* background-color: aqua; */
     max-height: 75%;
     grid-template-columns: 1fr 3fr;
     margin-left: 5em;
@@ -111,17 +135,16 @@ iframe {
     border-radius: 5px;
     max-width: 40%;
     padding: 2em;
-    margin: 2em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
-    
+    margin-top: 7rem;
+    margin-bottom: 8.5rem;
 }
 .index__circle_container {
     position: relative;
     width: 24em;
-    height: 24em;
-    padding: 2.8em;
+    height: 12.5em;
+    padding: 3em;
     margin: 1.75em auto 0;
 }
 .index__circle_container a {
@@ -181,7 +204,6 @@ iframe {
     max-width: 4em;
     min-height: 4em;
     max-height: 4em;
-    /* border-radius: 50%; */
     border-color: #2EC4B6;
 }
 .suggestion__div input, .suggestion__div select {
@@ -191,19 +213,12 @@ input[type="text"], select {
     width: 40em;
 }
 .business_list-item {
-    width: 1000px;
+    width: 100%;
 }
 .business__owner_container input[type="text"] {
     display: flex;
     justify-content: space-evenly;
-    width: 25em;
     font-size: large;
-}
-.index__category--title {
-    margin-bottom: 7em;
-}
-.index__spot-light {
-    margin: 13em 0 10em;
 }
 input[type="text"], select {
     width: 100%;
@@ -228,7 +243,7 @@ input[type="text"], select {
         display: block;
         position: top;
         z-index: 150;
-        width: 100vw;
+        width: 100%;
     }
 } 
 .hidden {
