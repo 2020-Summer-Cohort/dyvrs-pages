@@ -34,8 +34,7 @@ const renderSpotlightOne = () => {
         degree += 45;
         categoryClick.addEventListener("click", () => {
         renderCategory(category[i].id);
-        renderHeader();
-        renderFooter();
+
         });
         indexCircleContainer.appendChild(categoryClick);
       }

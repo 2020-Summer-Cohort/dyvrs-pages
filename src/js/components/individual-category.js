@@ -12,8 +12,6 @@ const renderCategory = (categoryId) => {
     const mainBody = document.querySelector(".main");
     console.log(mainBody);
     clearElementChildren(mainBody);
-    renderHeader();
-    renderFooter();
     const section = document.createElement("section");
     section.classList.add(".category__business");
     mainBody.appendChild(section);

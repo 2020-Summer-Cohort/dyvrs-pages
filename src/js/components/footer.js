@@ -16,6 +16,6 @@ const renderFooter = () => {
         <div class="footer__copyright">&copy;Dyvrs Pages</div>
     `;
     console.log('hello inside');
-    const body = document.querySelector('.main');
+    const body = document.querySelector('body');
     body.appendChild(footer);
 }

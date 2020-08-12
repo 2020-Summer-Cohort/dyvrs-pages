@@ -1,6 +1,7 @@
 import { fetchStore } from "../fetch-api.js"
 import { clearElementChildren } from "./clearElementChildren.js";
-
+import { renderHeader } from "../components/header.js"
+import { renderFooter } from "../components/footer.js"
 export { renderIndividualStore }
 
 
@@ -18,7 +19,7 @@ const renderIndividualStore = (storeId) => {
         h2.innerHTML = store.name;
         const storeGridContainer = document.createElement("div");
         storeGridContainer.classList.add("individual-store__gridContainer");
-        h2.appendChild(storeGridContainer);
+        h2.append(storeGridContainer);
         const storeImageListContainer = document.createElement("ul");
         storeGridContainer.appendChild(storeImageListContainer);
         const storeImageListItem = document.createElement("li");
@@ -40,7 +41,7 @@ const renderIndividualStore = (storeId) => {
             <h3 class="individual-store__about">About:</h3>
             <p class="individual-store__about-paragraph">${store.description}</p>
         `;
-        h2.appendChild(gridContainerItem2);
+        storeGridContainer.appendChild(gridContainerItem2);
     })
 }
 

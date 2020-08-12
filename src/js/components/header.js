@@ -19,6 +19,6 @@ const renderHeader = () => {
             </nav>
     `;
     console.log('hello inside');
-    const body = document.querySelector('.main');
+    const body = document.querySelector('body');
     body.prepend(header);
 }
