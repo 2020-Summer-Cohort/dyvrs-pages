@@ -57,3 +57,14 @@ html {
 .category__business--list-item a {
     color: var(--color-1);
 }
+.suggestion__div, #portal-page, #new-user-page, #update-user-login {
+    background-color: var(--color-3);
+    color: var(--color-4);
+}
+input[type="text"], select {
+    border: 1px solid var(--color-2);
+}
+.individual-store__img {
+    border: 5px;
+    border: solid #011627;
+}
