@@ -8,11 +8,11 @@
     <link href="../css/layout.css" rel="stylesheet"/>
 </head>
 <body class="main">
-    <h3>How Can we Improve</h3>
+    <h3>How Can We Improve?</h3>
     <div class="suggestion__div">
-        <form action="/action_page.php">
+        <form action="">
             <label for="name">First Name</label>
-            <input id="fname" name="firstname" placeholder="Your name.." type="text">
+            <input id="fname" name="firstname" placeholder="Your first name.." type="text">
             <label for="lname">Last Name</label>
             <input id="lname" name="lastname" placeholder="Your last name.." type="text">
             <label for="lname">Email</label>
@@ -24,9 +24,10 @@
                 <option value="question_about_website">Questions about Website</option>
                 <option value="other">Other</option>
             </select>
-            <label for="labelname">Aditional Comments</label>
+            <label for="labelname">Additional Comments</label>
             <input id="add_comments" name="comments" placeholder="Additional comments" type="text">
-            <input type="submit" value="Submit">
+            <!-- <a href="./index.html"><input type="submit" value="Submit"></a> -->
+            <button><a id="suggestion-button" href="./index.html">Submit</a></button>
         </form>
     </div>
     <script src="../../src/js/html-scripts/suggestionsScripts.js" type="module"></script>
