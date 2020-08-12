@@ -22,7 +22,7 @@ public class Populator implements CommandLineRunner {
         Category category3 = new Category("Consumer Services", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/ConsumerServices.png");
         Category category4 = new Category("Health & Wellness", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Health%26Wellness.png");
         Category category5 = new Category("Grocery Store", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GroceryStore.png");
-        Category category6 = new Category("Petrol Stations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GasStation.jpg");
+        Category category6 = new Category("Petrol Stations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GasStation.png");
         Category category7 = new Category("Lodging", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Lodging.png");
         Category category8 = new Category("Associations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Association.png");
         categoryRepo.save(category1);

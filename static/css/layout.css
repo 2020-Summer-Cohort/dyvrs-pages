@@ -49,8 +49,8 @@
     min-width: 100px;
 }
 .logo{
-    max-height: 150px;
-    max-width: 150px;   
+    max-height: 100px;
+    max-width: 100px;   
 }
 .contact__item img {
     max-height: 200px;
@@ -64,7 +64,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 .category__business--list-item {
     padding: 1rem;
@@ -95,10 +95,10 @@
     border-radius: 5px;
     max-width: 40%;
     padding: 2em;
-    /* margin: 2em; */
+    margin: 2em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 1rem;
     
 }
 .index__circle_container {
@@ -106,13 +106,12 @@
     width: 24em;
     height: 24em;
     padding: 2.8em;
-    border-radius: 50%;
     margin: 1.75em auto 0;
 }
 .index__circle_container a {
     display: block;
     position: absolute;
-    top: 70%;
+    top: 8rem;
     left: 50%;
     width: 6em;
     height: 6em;
@@ -123,28 +122,28 @@
     width: 100%;
 }
 .deg0 {
-    transform: translate(17em);
+    transform: translate(10em);
 }
 .deg45 {
-    transform: rotate(45deg) translate(17em) rotate(-45deg);
+    transform: rotate(45deg) translate(10em) rotate(-45deg);
 }
 .deg90 {
-    transform: rotate(90deg) translate(17em) rotate(-90deg);
+    transform: rotate(90deg) translate(10em) rotate(-90deg);
 }
 .deg135 {
-    transform: rotate(135deg) translate(17em) rotate(-135deg);
+    transform: rotate(135deg) translate(10em) rotate(-135deg);
 }
 .deg180 {
-    transform: translate(-17em);
+    transform: translate(-10em);
 }
 .deg225 {
-    transform: rotate(225deg) translate(17em) rotate(-225deg);
+    transform: rotate(225deg) translate(10em) rotate(-225deg);
 }
 .deg270 {
-    transform: rotate(270deg) translate(17em) rotate(-270deg);
+    transform: rotate(270deg) translate(10em) rotate(-270deg);
 }
 .deg315 {
-    transform: rotate(315deg) translate(17em) rotate(-315deg);
+    transform: rotate(315deg) translate(10em) rotate(-315deg);
 }
 .index__spot-light--container ul {
     display: grid;
@@ -162,11 +161,11 @@
     text-align: center;
 }
 .index__circle_container img {
-    min-width: 9em;
-    max-width: 9em;
-    min-height: 9em;
-    max-height: 9em;
-    border-radius: 50%;
+    min-width: 4em;
+    max-width: 4em;
+    min-height: 4em;
+    max-height: 4em;
+    /* border-radius: 50%; */
     border-color: #2EC4B6;
 }
 .suggestion__div input, .suggestion__div select {
