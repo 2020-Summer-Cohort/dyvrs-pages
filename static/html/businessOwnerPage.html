@@ -47,28 +47,32 @@
     <div class="hidden" id="update-user-login">
         <section class="user-update-log-in__section">
             <h2 class="user-update-log-in__title">Website Form</h2>    
-            <label for="update__business_name">Name of Business</label>
-            <input id="update__business_name" name="name_of_business" placeholder="Your Name of Business.." type="text">
-            <select id="contact_reason" name="contact_reason">
+            <label for="update__business-name">Name of Business</label>
+            <input id="update__business-name" name="name" placeholder="Your Business' Name..." type="text">
+            <select id="contact_reason" name="category">
                 <option value="suggest_new_business">Type of Business</option>
-                <option value="business_type_food">Food</option>
-                <option value="business_type_other">Other</option>
-                <option value="business_type_other">Other</option>
-                <option value="other">Other</option>
+                <option value="category1">Food</option>
+                <option value="category2">Apparel</option>
+                <option value="category3">Consumer Services</option>
+                <option value="category4">Health and Wellness</option>
+                <option value="category5">Grocery Store</option>
+                <option value="category6">Petrol Stations</option>
+                <option value="category7">Lodging</option>
+                <option value="category8">Associations</option>
             </select>
             <section>
                 <label for="update__phone-number">Phone Number:</label>
-                <input id="update__phone-number" name="x2" placeholder="Phone Number..." type="text">
-                <label for="update__email">Email :</label>
-                <input id="update__email" name="x2" placeholder="Business Email..." type="text">
+                <input id="update__phone-number" name="phoneNumber" placeholder="Phone Number..." type="text">
+                <label for="update__address">Address:</label>
+                <input id="update__address" name="address" placeholder="Address..." type="text">
                 <label for="update__website">Website URL :</label>
-                <input id="update__website" name="x2" placeholder="Website Url..." type="text">
+                <input id="update__website" name="website" placeholder="Website Url..." type="text">
                 <label for="update__business-hours">Business Hours :</label>
-                <input id="update__business-hours" name="x2" placeholder="Business Hours..." type="text">
+                <input id="update__business-hours" name="storeHours" placeholder="Business Hours..." type="text">
                 <label for="update__about">About Section :</label>
-                <input id="update__about" name="x2" placeholder="About the store..." type="text">
+                <input id="update__about" name="description" placeholder="About the store..." type="text">
                 <label for="update__product-list">Product List :</label>
-                <input id="update__product-list" name="x2" placeholder="Product list..." type="text">
+                <input id="update__product-list" name="productList" placeholder="Product list..." type="text">
                 <p>Click on the "Upload a picture of your Business</p>
                 <form href="http://localhost:8080/index.html">
                     <input id="myFile2" name="filename" type="file">

@@ -1,3 +1,5 @@
+import { addNewStore } from "../fetch-api.js";
+
 export{renderBusinessOwnerPage}
 console.log("above");
 const renderBusinessOwnerPage = () => {
@@ -18,17 +20,28 @@ const renderBusinessOwnerPage = () => {
     })
 
     // Submit button
-    const submitButton = document.querySelector(".update__submit-button");
+    const updateStoreSubmitButton = document.querySelector(".update__submit-button");
+    const updateName = document.querySelector(".update__business-name");
     const updatePhoneNumber = document.querySelector(".update__phone-number");
-    const updateEmail = document.querySelector(".update__email");
+    const updateAddress = document.querySelector(".update__address");
     const updateWebsite = document.querySelector(".update__website");
     const updateBusinessHours = document.querySelector(".update__business-hours");
     const updateAbout = document.querySelector(".update__about");
     const updateProductList = document.querySelector(".update__product-list");
-    submitButton.addEventListener("click", ()=> {
+    updateStoreSubmitButton.addEventListener("click", ()=> {
         const store = {
-            phoneNumber: phoneNumber.value,
-        }
+            name: updateName.value,
+            phoneNumber: updatePhoneNumber.value,
+            address: updateAddress.value,
+            website: updateWebsite.value,
+            storeHours: updateBusinessHours.value,
+            description: updateAbout.value,
+            productList: updateProductList.value,
+            category: "Food"
+        };
+        console.log(store);
+        addNewStore(store);
     })
 }
+
 
