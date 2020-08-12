@@ -43,22 +43,35 @@
     align-items: center;
     margin: 3rem;
 }
-.category__business--img, .index__spot-light--img, .category__business--list-item img {
+ .index__spot-light--img, .category__business--list-item img, .contact__item img {
     max-height: 150px;
     max-width: 150px;
     min-width: 100px;
+    min-height: 100px;
 }
-.team__item, .category__business--list-item {
+.category__business--list-item img, .contact__item img {
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 100px;
+    min-height: 100px;
+}
+.team__item img {
+    max-height: 200px;
+    max-width: 200px;
+}
+.team__item {
     min-width: 20%;
     margin-left: 8%;
+    margin-bottom: 3%;
+}
+ .category__business--list-item {
+    min-width: 20%;
+    margin-left: 8%;
+    margin-bottom: 3%;
 }
 .logo{
     max-height: 100px;
     max-width: 100px;   
-}
-.contact__item img {
-    max-height: 200px;
-    max-width: 200px;
 }
 .category__business--title, .contact__title, .team__title, .index__category--title, .index__spot-light--title, .individual-store__title {
     margin: 1em;
@@ -90,7 +103,6 @@
 }
 .individual-store__gridContainer {
     display: grid;
-    /* background-color: aqua; */
     max-height: 75%;
     grid-template-columns: 1fr 3fr;
 }
@@ -116,7 +128,7 @@
     position: relative;
     width: 24em;
     height: 12.5em;
-    padding: 2.8em 2.8em 1em 2.8em;
+    padding: 3em;
     margin: 1.75em auto 0;
 }
 .index__circle_container a {
@@ -176,7 +188,6 @@
     max-width: 4em;
     min-height: 4em;
     max-height: 4em;
-    /* border-radius: 50%; */
     border-color: #2EC4B6;
 }
 .suggestion__div input, .suggestion__div select {

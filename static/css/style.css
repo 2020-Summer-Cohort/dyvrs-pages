@@ -35,10 +35,11 @@ html {
     color: var(--color-4);
     background-color: var(--color-5);
 }
-/* .category__business--company-name h2 {
-    font: 5px;
+.category__business--company-name {
+    font-size: small;
     font-weight: normal;
-} */
+    text-align: center;
+}
 .header__nav li {
     border: 2px solid var(--color-4);
     color: var(--color-4);
