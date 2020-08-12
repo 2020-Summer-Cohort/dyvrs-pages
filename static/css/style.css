@@ -34,7 +34,7 @@ html {
     background-color: var(--color-1);
 }
 .header__nav li, .footer__nav li {
-    border: 2px solid var(--color-2);
+    border: 2px solid var(--color-3);
     color: var(--color-4);
     overflow: hidden;
 }
