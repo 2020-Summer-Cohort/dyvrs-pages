@@ -1,5 +1,7 @@
 import { fetchSpotlight, fetchAllCategories } from "../fetch-api.js";
 import{renderCategory} from "./individual-category.js"
+import { renderHeader } from "./header.js";
+import { renderFooter } from "./footer.js";
 export { renderSpotlightOne, renderCategoryCircle };
 
 
@@ -32,6 +34,8 @@ const renderSpotlightOne = () => {
         degree += 45;
         categoryClick.addEventListener("click", () => {
         renderCategory(category[i].id);
+        renderHeader();
+        renderFooter();
         });
         indexCircleContainer.appendChild(categoryClick);
       }

@@ -1,5 +1,6 @@
 import { fetchCategory } from "../fetch-api.js";
-
+import { renderHeader } from "../components/header.js"
+import { renderFooter } from "../components/footer.js"
 import { clearElementChildren } from "../components/clearElementChildren.js";
 import{renderIndividualStore} from "../components/individual-store.js"
 
@@ -11,6 +12,8 @@ const renderCategory = (categoryId) => {
     const mainBody = document.querySelector(".main");
     console.log(mainBody);
     clearElementChildren(mainBody);
+    renderHeader();
+    renderFooter();
     const section = document.createElement("section");
     section.classList.add(".category__business");
     mainBody.appendChild(section);
