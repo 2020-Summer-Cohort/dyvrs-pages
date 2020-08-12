@@ -1,4 +1,4 @@
-export{renderBusinessOwnerPage,updateOwnerPageFunction}
+export{renderBusinessOwnerPage}
 console.log("above");
 const renderBusinessOwnerPage = () => {
     const portalPage = document.querySelector("#portal-page");
@@ -9,15 +9,12 @@ const renderBusinessOwnerPage = () => {
     submitUserButton.addEventListener("click", ()=> {
         portalPage.classList.toggle("hidden");
         updateUserLogin.classList.toggle("hidden");
-        console.log("Inside event listener");
+        console.log("Inside submitUserButton - businessOwnerPage.js");
     })
     newUserButton.addEventListener("click", ()=> {
         portalPage.classList.toggle("hidden");
         newUserPage.classList.toggle("hidden");
-        console.log("Inside event listener");
+        console.log("Inside newUserButton - businessOwnerPage.js");
     })
 }
-    console.log("inside");
-function updateOwnerPageFunction() {
-    console.log("test");
-}  
+

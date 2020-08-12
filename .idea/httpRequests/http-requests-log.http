@@ -6,6 +6,24 @@ Content-Type: application/json
   "address": "Hogwarts"
 }
 
+<> 2020-08-12T061843.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T061833.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "address": "Hogwarts"
+}
+
 <> 2020-08-12T060441.200.json
 
 ###
@@ -470,18 +488,6 @@ GET http://localhost:8080/api/stores/5
 GET http://localhost:8080/api/stores/5
 
 <> 2020-08-03T110833.500.json
-
-###
-
-GET http://localhost:8080/api/category/6
-
-<> 2020-08-03T110739.200.json
-
-###
-
-GET http://localhost:8080/api/category/7
-
-<> 2020-08-03T110714.200.json
 
 ###
 
