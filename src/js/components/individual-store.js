@@ -1,6 +1,7 @@
 import { fetchStore } from "../fetch-api.js"
 import { clearElementChildren } from "./clearElementChildren.js";
-
+import { renderHeader } from "../components/header.js"
+import { renderFooter } from "../components/footer.js"
 export { renderIndividualStore }
 
 
@@ -8,6 +9,7 @@ console.log("calling individual store js correctly");
 const renderIndividualStore = (storeId) => {
     fetchStore(storeId).then(store => {
         const mainBody = document.querySelector(".main");
+        mainBody.classList.add("individual-store__main");
         clearElementChildren(mainBody);
         console.log("inside render individual store")
         const h3 = document.createElement("h2");
@@ -18,12 +20,12 @@ const renderIndividualStore = (storeId) => {
         h2.innerHTML = store.name;
         const storeGridContainer = document.createElement("div");
         storeGridContainer.classList.add("individual-store__gridContainer");
-        h2.appendChild(storeGridContainer);
+        mainBody.appendChild(storeGridContainer);
         const storeImageListContainer = document.createElement("ul");
         storeGridContainer.appendChild(storeImageListContainer);
         const storeImageListItem = document.createElement("li");
         storeImageListItem.innerHTML = `<img class="individual-store__img" src=${store.image} alt="Company Photo ">`
-        storeGridContainer.appendChild(storeImageListItem);
+        storeImageListContainer.appendChild(storeImageListItem);
         const gridContainerItem2 = document.createElement("div");
         gridContainerItem2.classList.add("individual-store__gridContainerItem2");
         gridContainerItem2.innerHTML = `
@@ -40,12 +42,12 @@ const renderIndividualStore = (storeId) => {
             <h3 class="individual-store__about">About:</h3>
             <p class="individual-store__about-paragraph">${store.description}</p>
         `;
-        h2.appendChild(gridContainerItem2);
+        storeGridContainer.appendChild(gridContainerItem2);
     })
 }
 
-{/* <section class="category__business">
+/* <section class="category__business">
 <div class="category__business--container">
     <h2 class="category__business--title">Restaurants</h2>
 </div>
-</section> */}
+</section> */

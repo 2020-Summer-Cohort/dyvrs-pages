@@ -64,7 +64,17 @@ html {
 input[type="text"], select {
     border: 1px solid var(--color-2);
 }
+<<<<<<< HEAD
 .individual-store__img {
     border: 5px;
     border: solid #011627;
+=======
+.category__business--list-item a {
+    color: black;
+}
+
+.team__item img {
+    max-width: 200px;
+    max-height: 200px;
+>>>>>>> dev
 }
