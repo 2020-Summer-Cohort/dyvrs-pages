@@ -22,7 +22,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     bottom: 0;
-    /* position: fixed; */
     z-index: 150;
     _position: absolute;
     width: 98%;
@@ -107,8 +106,8 @@
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 8.5rem;
 }
 .index__circle_container {
     position: relative;
@@ -190,9 +189,6 @@ input[type="text"], select {
     display: flex;
     justify-content: space-evenly;
     font-size: large;
-}
-.index__category--title {
-    margin-bottom: 7em;
 }
 input[type="text"], select {
     width: 100%;

@@ -25,7 +25,7 @@ html {
     ); */
     background-color: var(--color-4);
 }
-.suggestion__h3-title{
+.suggestion__h3-title, .new-user-form__title, .user-update-log-in__title{
     text-align: center;
 }
 .team__item a{
