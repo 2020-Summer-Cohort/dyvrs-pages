@@ -11,7 +11,6 @@ const renderFooter = () => {
                 <li class="header__list-item"><a href="./businessOwnerPage.html">Owner Portal</a></li>
                 <li class="footer__list-item"><a href="./team.html">Team</a></li>
                 <li class="footer__list-item"><a href="./suggestion .html">Suggestions</a></li>
-                <li class="footer__list-item"><a href="./categories.html">Categories</a></li>
             </ul>
         </nav>
         <div class="footer__copyright">&copy;Dyvrs Pages</div>
