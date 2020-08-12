@@ -25,12 +25,15 @@ html {
     ); */
     background-color: var(--color-4);
 }
+.suggestion__h3-title{
+    text-align: center;
+}
 .team__item a{
     color: var(--color-1);
 }
 .header, .footer {
     color: var(--color-4);
-    background-color: var(--color-1);
+    background-color: var(--color-5);
 }
 .header__nav li {
     border: 2px solid var(--color-4);
@@ -65,6 +68,9 @@ html {
 .suggestion__div, #portal-page, #new-user-page, #update-user-login {
     background-color: var(--color-3);
     color: var(--color-4);
+    border: 2px;
+    border-style: solid;
+    border-color: var(--color-2);
 }
 input[type="text"], select {
     border: 1px solid var(--color-2);
