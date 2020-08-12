@@ -51,6 +51,10 @@
     max-height: 150px;
     max-width: 150px;
 }
+.logo{
+    max-height: 150px;
+    max-width: 150px;   
+}
 .category__business--list li {
     align-content: center;
 }

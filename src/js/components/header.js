@@ -6,7 +6,11 @@ const renderHeader = () => {
     const header = document.createElement('header');
     header.classList.add('header');
     header.innerHTML = `
-        <h1 class="header__logo"><a href="./index.html">DYVRS<br>PAGES</a></h1>
+        <h1 class="header__logo">  
+            <a href="./index.html">
+            <img class="logo" src="../../static/images/book2.jpg" alt="Photo!" />
+            </a>
+        </h1>
             <nav class="header__nav">
                 <ul class= "header__container">
                     <li class="header__list-item"><a href="./businessOwnerPage.html">Owner Portal</a></li>
