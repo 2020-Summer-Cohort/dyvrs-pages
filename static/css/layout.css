@@ -33,9 +33,11 @@
 .footer__container {
     display: flex;
     justify-content: space-evenly;
+   
 }
 .footer__copyright {
     text-align: right;
+    margin-right: 2em;
 }
 .about__mission {
     display: flex;
