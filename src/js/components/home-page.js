@@ -7,7 +7,7 @@ export { renderSpotlightOne, renderCategoryCircle };
 
 
 const renderSpotlightOne = () => {
-  for(let i = 0; i<5; i++){
+  for(let i = 0; i<6; i++){
     fetchSpotlight().then((store) => {
       const spotlightOne = document.createElement("li");
       spotlightOne.classList.add("index__spot-light--list-item");

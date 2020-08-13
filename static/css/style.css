@@ -5,20 +5,22 @@
 }
 :root {
     --color-1: #011627;
-    --color-2: #FF3366;
-    --color-3: #2ec4b58c;
-    --color-4: #F6F7F8;
-    --color-5: #20A4F3;
+    --color-2: rgba(4, 73, 129, 0.246);
+    --color-3: #F6F7F8;
 }
 a {
     text-decoration: none;
-    color: var(--color-4);
+    color: var(--color-3);
+}
+input, button{
+    padding: 5px;
+    border-radius: 5px;
 }
 * body {
     font-family: Andika, "sans-serif";
 }
 html {
-    background-color: var(--color-4);
+    background-color: var(--color-3);
 }
 .logo{
     opacity: 80%;
@@ -30,35 +32,44 @@ html {
     color: var(--color-1);
 }
 .header, .footer {
-    color: var(--color-4);
-    background-color: var(--color-5);
-    border: solid 2px;
-    border-color: var(--color-1);
+    color: var(--color-3);
+    background-color: var(--color-1);
 }
+.index__section-tag{
+    font-family: Federo, sans-serif;
+}
+.index__p-tag{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.bold-name, .index__p-tag2{
+    font-size: large; 
+}
+.index__spot-light--title a {
+ color: var(--color-1);
+}    
 .category__business--company-name {
     font-size: small;
     font-weight: normal;
     text-align: center;
 }
 .header__nav li {
-    /* background-color: var(--color-1); */
-    border: 2px solid var(--color-4);
-    color: var(--color-4);
+    color: var(--color-3);
     overflow: hidden;
-    /* opacity: 80%; */
 }
 .footer__nav li:hover, .header__nav li:hover {
-    background-color: var(--color-1);
-    color: var(--color-4);
-    opacity: 80%;
+    background-color: var(--color-2);
+    opacity: 50%;
 }
-.team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
+.team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title {
     font-size: x-large;
+}
+.index__spot-light--title {
+    font-size: medium;
 }
 .individual-store__info-item a {
     color: var(--color-1);
-    border: 2px solid var(--color-1);
-    border-radius: 10%;
 }
 .index__spot-light--company-name {
     font-size: smaller; 
@@ -72,24 +83,17 @@ html {
     color: var(--color-1);
 }
 .suggestion__div, #portal-page, #new-user-page, #update-user-login {
-    background-color: var(--color-3);
+    background-color: var(--color-2);
     color: var(--color-1);
-    border: 2px;
-    border-style: solid;
-    border-color: var(--color-1);
+
 }
 ::placeholder {
     color: var(--color-1);
 }
-input[type="text"], select {
-    border: 1px solid var(--color-1);
-}
+
 .category__business--list-item a {
     color: var(--color-1);
 }
 #suggestion-button {
     color: var(--color-1);
-}
-.individual-store__img, .index__spot-light--img {
-border-color: var(--color-1);
 }
