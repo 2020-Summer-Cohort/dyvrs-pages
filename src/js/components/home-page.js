@@ -36,6 +36,7 @@ const renderSpotlightOne = () => {
         const categoryimage = document.createElement('img');
         categoryimage.src =category[i].image;
         categoryimage.addEventListener("click", () => {
+          console.log(category[i].name)
           renderCategory(category[i].id);
         });
         categoryClick.appendChild(categoryimage);
