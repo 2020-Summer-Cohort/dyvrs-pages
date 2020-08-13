@@ -5,13 +5,12 @@
 }
 :root {
     --color-1: #011627;
-    --color-2: #dddddd;
-    --color-3: #2ec4b58c;
-    --color-4: #F6F7F8;
+    --color-2: rgba(4, 73, 129, 0.246);
+    --color-3: #F6F7F8;
 }
 a {
     text-decoration: none;
-    color: var(--color-4);
+    color: var(--color-3);
 }
 input, button{
     padding: 5px;
@@ -21,7 +20,7 @@ input, button{
     font-family: Andika, "sans-serif";
 }
 html {
-    background-color: var(--color-4);
+    background-color: var(--color-3);
 }
 .logo{
     opacity: 80%;
@@ -33,7 +32,7 @@ html {
     color: var(--color-1);
 }
 .header, .footer {
-    color: var(--color-4);
+    color: var(--color-3);
     background-color: var(--color-1);
 }
 .category__business--company-name {
@@ -42,11 +41,11 @@ html {
     text-align: center;
 }
 .header__nav li {
-    color: var(--color-4);
+    color: var(--color-3);
     overflow: hidden;
 }
 .footer__nav li:hover, .header__nav li:hover {
-    background-color: var(--color-3);
+    background-color: var(--color-2);
     opacity: 50%;
 }
 .team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
@@ -67,7 +66,7 @@ html {
     color: var(--color-1);
 }
 .suggestion__div, #portal-page, #new-user-page, #update-user-login {
-    background-color: var(--color-3);
+    background-color: var(--color-2);
     color: var(--color-1);
 
 }
