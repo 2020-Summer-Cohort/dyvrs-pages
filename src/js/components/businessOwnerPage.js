@@ -17,7 +17,7 @@ const renderBusinessOwnerPage = () => {
         console.log("Inside event listener");
     })
 }
-    console.log("inside");
+
 function updateOwnerPageFunction() {
-    console.log("test");
+
 }  
