@@ -29,8 +29,8 @@
     top: 0;
 }
 .homepage-bg {
-    background-image: url(../images/fullfuzzypink2.png);
-    /* background-image: url(../images/fadedwhitestore.png); */
+    /* background-image: url(../images/image.png); */
+    background-image: url(../images/fadedwhitestore.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
