@@ -10,8 +10,13 @@
     align-self: center;
     margin-left: 45%;
 }
+.footer__list-item{
+    text-align: center;
+    align-items: center;
+}
 .contact__item{
     align-self: center;
+    margin-bottom: -8px;
 }
 .header {
     display: grid;
@@ -61,10 +66,10 @@
     border-radius: 5%;
 }
 .contact__item img {
-    max-height: 150px;
-    max-width: 150px;
-    min-width: 100px;
-    min-height: 100px;
+    max-height: 20px;
+    max-width: 20px;
+    min-width: 10px;
+    min-height: 10px;
     border-radius: 5%;
 }
 .category__business--list-item img{
