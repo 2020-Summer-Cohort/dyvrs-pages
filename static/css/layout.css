@@ -145,7 +145,7 @@
     text-align: center;
     align-items: center;
 }
- .footer__nav li {
+ .footer__nav li, .header__nav li {
     padding: .5em;
     border-radius: 15%;
 }
