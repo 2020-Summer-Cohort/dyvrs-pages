@@ -5,14 +5,17 @@
 }
 :root {
     --color-1: #011627;
-    --color-2: #FF3366;
+    --color-2: #dddddd;
     --color-3: #2ec4b58c;
     --color-4: #F6F7F8;
-    --color-5: #20A4F3;
 }
 a {
     text-decoration: none;
     color: var(--color-4);
+}
+input, button{
+    padding: 5px;
+    border-radius: 5px;
 }
 * body {
     font-family: Andika, "sans-serif";
