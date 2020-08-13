@@ -1,4 +1,5 @@
 import { addNewStore } from "../fetch-api.js";
+import { renderSpotlightOne, renderCategoryCircle } from "./home-page.js";
 
 export{renderBusinessOwnerPage}
 console.log("above");
@@ -21,13 +22,17 @@ const renderBusinessOwnerPage = () => {
 
     // Submit button
     const updateStoreSubmitButton = document.querySelector(".update__submit-button");
-    const updateName = document.querySelector(".update__business-name");
-    const updatePhoneNumber = document.querySelector(".update__phone-number");
-    const updateAddress = document.querySelector(".update__address");
-    const updateWebsite = document.querySelector(".update__website");
-    const updateBusinessHours = document.querySelector(".update__business-hours");
-    const updateAbout = document.querySelector(".update__about");
-    const updateProductList = document.querySelector(".update__product-list");
+
+    //Form fields
+    const updateName = document.querySelector("#update__business-name");
+    const updatePhoneNumber = document.querySelector("#update__phone-number");
+    const updateAddress = document.querySelector("#update__address");
+    const updateWebsite = document.querySelector("#update__website");
+    const updateBusinessHours = document.querySelector("#update__business-hours");
+    const updateAbout = document.querySelector("#update__about");
+    const updateProductList = document.querySelector("#update__product-list");
+    const updateCategory = document.querySelector("#update__category");
+
     updateStoreSubmitButton.addEventListener("click", ()=> {
         const store = {
             name: updateName.value,
@@ -35,12 +40,15 @@ const renderBusinessOwnerPage = () => {
             address: updateAddress.value,
             website: updateWebsite.value,
             storeHours: updateBusinessHours.value,
+            image: "updateImage.value",
             description: updateAbout.value,
             productList: updateProductList.value,
-            category: "Food"
-        };
+            category: "category3"
+        }
         console.log(store);
-        addNewStore(store);
+        addNewStore(store).then(()=> {
+            alert(`${store.name} successfully added`)
+        })
     })
 }
 

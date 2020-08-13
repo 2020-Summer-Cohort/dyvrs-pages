@@ -1,6 +1,7 @@
 package co.dyvrspages.guide.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import javax.persistence.*;
 
@@ -20,7 +21,7 @@ public class Store {
     @Lob
     private String description;
     private String productList;
-    @JsonIgnore
+    @JsonProperty(access= JsonProperty.Access.WRITE_ONLY)
     @ManyToOne
     private Category category;
 

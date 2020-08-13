@@ -31,7 +31,6 @@ const fetchCat1 = async () => {
 };
 
 const addNewStore = async (store) => {
-  console.log(store);
   return fetch(`http://localhost:8080/api/categories/store/add/`, 
   {
     method: "POST",
