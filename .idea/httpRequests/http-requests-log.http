@@ -1,3 +1,45 @@
+POST http://localhost:8080/api/category/5/addStore/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T074125.200.json
+
+###
+
+POST http://localhost:8080/api/category/5/addStore/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T073928.404.json
+
+###
+
+GET http://localhost:8080/api/index/
+
+<> 2020-08-13T073919.200.json
+
+###
+
 GET http://localhost:8080/api/category/5/
 
 <> 2020-08-13T112736.200.json
@@ -638,22 +680,6 @@ Content-Type: application/json
 GET http://localhost:8080/api/store/random/
 
 <> 2020-08-06T113106.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T113059.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T113010.200.json
 
 ###
 

@@ -21,7 +21,7 @@ public class Store {
     @Lob
     private String description;
     private String productList;
-    @JsonProperty(access= JsonProperty.Access.WRITE_ONLY)
+    @JsonIgnore
     @ManyToOne
     private Category category;
 

@@ -35,7 +35,6 @@ const renderCategory = (categoryId) => {
             </a>
         `;
         li.addEventListener("click", () => {
-          alert("clicking on store")
           renderIndividualStore(store.id);
           });
       ul.appendChild(li);

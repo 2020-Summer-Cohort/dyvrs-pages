@@ -32,3 +32,17 @@ out/
 
 ### VS Code ###
 .vscode/
+bin/main/application.properties
+bin/main/co/dyvrspages/guide/GuideApplication.class
+bin/main/co/dyvrspages/guide/Populator.class
+bin/main/co/dyvrspages/guide/controllers/CategoryController.class
+bin/main/co/dyvrspages/guide/entities/Store.class
+bin/main/co/dyvrspages/guide/storages/StoreStorage.class
+bin/main/co/dyvrspages/guide/storages/repositories/StoreRepository.class
+bin/test/co/dyvrspages/guide/HTTPTest.http
+bin/test/co/dyvrspages/guide/GuideApplicationTests.class
+bin/main/co/dyvrspages/guide/storages/repositories/CategoryRepository.class
+bin/main/co/dyvrspages/guide/storages/CategoryStorage.class
+bin/main/co/dyvrspages/guide/entities/Category.class
+bin/main/co/dyvrspages/guide/controllers/StoreController.class
+bin/main/co/dyvrspages/guide/WebConfig.class

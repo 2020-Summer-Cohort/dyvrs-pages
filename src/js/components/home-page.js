@@ -2,11 +2,12 @@ import { fetchSpotlight, fetchAllCategories } from "../fetch-api.js";
 import{renderCategory} from "./individual-category.js"
 import { renderHeader } from "./header.js";
 import { renderFooter } from "./footer.js";
+import { renderIndividualStore } from "./individual-store.js";
 export { renderSpotlightOne, renderCategoryCircle };
 
 
 const renderSpotlightOne = () => {
-  for(let i = 0; i<5; i++){
+  for(let i = 0; i<6; i++){
     fetchSpotlight().then((store) => {
       const spotlightOne = document.createElement("li");
       spotlightOne.classList.add("index__spot-light--list-item");
@@ -16,6 +17,9 @@ const renderSpotlightOne = () => {
           `;
       const ul = document.querySelector(".index__spot-light--container-list");
       ul.appendChild(spotlightOne);
+      spotlightOne.addEventListener("click", () => {
+        renderIndividualStore(store.id);
+      });
     });
   }};
   
@@ -29,16 +33,31 @@ const renderSpotlightOne = () => {
       for (let i = 0; i < category.length; i++) {
         const categoryClick = document.createElement('a');
         categoryClick.classList.add(`deg${degree}`);
-        categoryClick.innerHTML = `
-          <img src="${category[i].image}"><h4 class="index__single-category--name">${category[i].name}</h4>
-        `;
-        degree += 45;
-        categoryClick.addEventListener("click", () => {
-        renderCategory(category[i].id);
-
+        const categoryimage = document.createElement('img');
+        categoryimage.src =category[i].image;
+        categoryimage.addEventListener("click", () => {
+          console.log(category[i].name)
+          renderCategory(category[i].id);
         });
+        categoryClick.appendChild(categoryimage);
+        const singleCatName = document.createElement('h4');
+        singleCatName.classList.add('index__single-category--name');
+        singleCatName.innerHTML= `${category[i].name}`;
+        categoryClick.appendChild(singleCatName);
+        degree += 45;
+   
+
+
+        
         indexCircleContainer.appendChild(categoryClick);
       }
         indexCategory.appendChild(indexCircleContainer);
     })
   }
+
+//   categoryClick.innerHTML = `
+//   <img src="${category[i].image}">  <h4 class="index__single-category--name">${category[i].name}</h4>
+// `;
+
+// categoryClick.addEventListener("click", () => {
+//   renderCategory(category[i].id);
