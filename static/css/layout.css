@@ -71,7 +71,18 @@
     min-width: 10px;
     min-height: 10px;
     border-radius: 5%;
-    padding-top: 10px;
+    padding-top: 4px;
+}
+.index__spot-light--title2{
+text-align: center;
+}
+.index__spot-light--title2 img {
+    max-height: 20px;
+    max-width: 20px;
+    min-width: 10px;
+    min-height: 10px;
+    border-radius: 5%;
+    padding-top: 4px;
 }
 .category__business--list-item img{
     max-height: 200px;
@@ -107,8 +118,7 @@
     margin: 1em;
 }
  .index__spot-light--title{
-    margin-top: 3em;
-    margin-bottom: 2em;
+    margin-top: 7em;
     text-align: center;
 }
 .individual-store__title {
@@ -138,13 +148,6 @@
 }
 .index__spot-light--container-list{
     margin-top: 5em;
-}
-.index__p-tag{
-    font-weight: bolder;
-    font-size: larger;
-}
-.bold-name, .index__p-tag2{
-    font-weight: bolder;
 }
 .category__business--list-item {
     padding: 1rem;

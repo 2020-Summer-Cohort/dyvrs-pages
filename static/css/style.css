@@ -35,6 +35,20 @@ html {
     color: var(--color-3);
     background-color: var(--color-1);
 }
+.index__section-tag{
+    font-family: Federo, sans-serif;
+}
+.index__p-tag{
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+.bold-name, .index__p-tag2{
+    font-size: large; 
+}
+.index__spot-light--title a {
+ color: var(--color-1);
+}    
 .category__business--company-name {
     font-size: small;
     font-weight: normal;
@@ -48,8 +62,11 @@ html {
     background-color: var(--color-2);
     opacity: 50%;
 }
-.team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
+.team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title {
     font-size: x-large;
+}
+.index__spot-light--title {
+    font-size: medium;
 }
 .individual-store__info-item a {
     color: var(--color-1);
