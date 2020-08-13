@@ -52,9 +52,3 @@ const renderIndividualStore = (storeId) => {
         storeGridContainer.appendChild(gridContainerItem2);
     })
 }
-
-/* <section class="category__business">
-<div class="category__business--container">
-    <h2 class="category__business--title">Restaurants</h2>
-</div>
-</section> */
