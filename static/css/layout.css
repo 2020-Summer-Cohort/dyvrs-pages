@@ -28,6 +28,15 @@
     position: fixed; 
     top: 0;
 }
+.homepage-bg {
+    background-image: url(../images/fullfuzzypink2.png);
+    /* background-image: url(../images/fadedwhitestore.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homepage-bg {
+    opacity: 0.3;
+}
 .footer {
     padding: 1em;
     display: grid;
@@ -118,7 +127,7 @@ text-align: center;
     margin: 1em;
 }
  .index__spot-light--title{
-    margin-top: 7em;
+    margin-top: 5em;
     text-align: center;
 }
 .individual-store__title {
@@ -140,7 +149,7 @@ text-align: center;
     margin-bottom: 8.5rem;
 }
 .index__section-tag{
-    margin-top: 10em;
+    margin-top: 9em;
     text-align: center;
 }
 .team__title{
