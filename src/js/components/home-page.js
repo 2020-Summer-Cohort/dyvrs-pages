@@ -29,16 +29,30 @@ const renderSpotlightOne = () => {
       for (let i = 0; i < category.length; i++) {
         const categoryClick = document.createElement('a');
         categoryClick.classList.add(`deg${degree}`);
-        categoryClick.innerHTML = `
-          <img src="${category[i].image}"><h4 class="index__single-category--name">${category[i].name}</h4>
-        `;
-        degree += 45;
-        categoryClick.addEventListener("click", () => {
-        renderCategory(category[i].id);
-
+        const categoryimage = document.createElement('img');
+        categoryimage.src =category[i].image;
+        categoryimage.addEventListener("click", () => {
+          renderCategory(category[i].id);
         });
+        categoryClick.appendChild(categoryimage);
+        const singleCatName = document.createElement('h4');
+        singleCatName.classList.add('index__single-category--name');
+        singleCatName.innerHTML= `${category[i].name}`;
+        categoryClick.appendChild(singleCatName);
+        degree += 45;
+   
+
+
+        
         indexCircleContainer.appendChild(categoryClick);
       }
         indexCategory.appendChild(indexCircleContainer);
     })
   }
+
+//   categoryClick.innerHTML = `
+//   <img src="${category[i].image}">  <h4 class="index__single-category--name">${category[i].name}</h4>
+// `;
+
+// categoryClick.addEventListener("click", () => {
+//   renderCategory(category[i].id);
