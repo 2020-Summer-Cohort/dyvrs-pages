@@ -6,7 +6,7 @@
 :root {
     --color-1: #011627;
     --color-2: #FF3366;
-    --color-3: #2EC4B6;
+    --color-3: #2ec4b58c;
     --color-4: #F6F7F8;
     --color-5: #20A4F3;
 }
@@ -18,11 +18,6 @@ a {
     font-family: Andika, "sans-serif";
 }
 html {
-    /* background-image: linear-gradient(
-            to left,
-            F6F7F8,
-            20A4F3
-    ); */
     background-color: var(--color-4);
 }
 .logo{
@@ -37,6 +32,8 @@ html {
 .header, .footer {
     color: var(--color-4);
     background-color: var(--color-5);
+    border: solid 2px;
+    border-color: var(--color-1);
 }
 .category__business--company-name {
     font-size: small;
@@ -44,16 +41,17 @@ html {
     text-align: center;
 }
 .header__nav li {
+    /* background-color: var(--color-1); */
     border: 2px solid var(--color-4);
     color: var(--color-4);
     overflow: hidden;
+    /* opacity: 80%; */
 }
 .footer__nav li:hover, .header__nav li:hover {
     background-color: var(--color-1);
     color: var(--color-4);
     opacity: 80%;
 }
-
 .team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
     font-size: x-large;
 }
@@ -75,10 +73,13 @@ html {
 }
 .suggestion__div, #portal-page, #new-user-page, #update-user-login {
     background-color: var(--color-3);
-    color: var(--color-4);
+    color: var(--color-1);
     border: 2px;
     border-style: solid;
     border-color: var(--color-1);
+}
+::placeholder {
+    color: var(--color-1);
 }
 input[type="text"], select {
     border: 1px solid var(--color-1);
@@ -88,4 +89,7 @@ input[type="text"], select {
 }
 #suggestion-button {
     color: var(--color-1);
+}
+.individual-store__img, .index__spot-light--img {
+border-color: var(--color-1);
 }
