@@ -50,8 +50,8 @@
     align-items: center;
     margin: 3rem;
 }
-.category__business--container, .individual-store__main{
-    margin-top: 12em;
+.category__business--container, .individual-store__main, .team__section{
+    margin-top: 10em;
 }
  .index__spot-light--img {
     max-height: 150px;
@@ -122,15 +122,15 @@
     margin-top: 20rem;
     margin-bottom: 8.5rem;
 }
-.team__section{
-    margin-top: 12em;
-}
 .index__section-tag{
-    margin-top: 12em;
+    margin-top: 10em;
     text-align: center;
 }
 .team__title{
     margin: 2em;
+}
+.index__spot-light--container-list{
+    margin-top: 5em;
 }
 .index__p-tag{
     font-weight: bolder;
@@ -190,10 +190,10 @@ iframe {
     padding: 2em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0rem;
+    margin-top: 20rem;
     margin-bottom: 15rem;   
 }
-.suggestion__div, #portal-page, #new-user-page, #update-user-login {
+.suggestion__div, #new-user-page, #update-user-login {
     border-radius: 5px;
     max-width: 40%;
     padding: 2em;
@@ -210,7 +210,7 @@ iframe {
     width: 24em;
     height: 12.5em;
     padding: 3em;
-    margin: 3em auto 0;
+    margin: 4em auto 2em auto;
 }
 .index__circle_container a {
     display: block;
