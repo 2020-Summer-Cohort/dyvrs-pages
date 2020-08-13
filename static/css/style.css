@@ -25,6 +25,9 @@ html {
     ); */
     background-color: var(--color-4);
 }
+.logo{
+    opacity: 80%;
+}
 .suggestion__h3-title, .new-user-form__title, .user-update-log-in__title{
     text-align: center;
 }
@@ -33,7 +36,7 @@ html {
 }
 .header, .footer {
     color: var(--color-4);
-    background-color: var(--color-1);
+    background-color: var(--color-5);
 }
 .category__business--company-name {
     font-size: small;
@@ -46,9 +49,9 @@ html {
     overflow: hidden;
 }
 .footer__nav li:hover, .header__nav li:hover {
-    background-color: var(--color-3);
-    padding: 1em;
+    background-color: var(--color-1);
     color: var(--color-4);
+    opacity: 80%;
 }
 
 .team__title, .contact__title, .category__business--title, .about__mission--title, .individual-store__title, .index__spot-light--title {
@@ -56,7 +59,7 @@ html {
 }
 .individual-store__info-item a {
     color: var(--color-1);
-    border: 2px solid var(--color-2);
+    border: 2px solid var(--color-1);
     border-radius: 10%;
 }
 .index__spot-light--company-name {
@@ -64,7 +67,7 @@ html {
 
 }
 .index__single-category--name {
-    color: var(--color-3);
+    color: var(--color-1);
     font-size: .75rem;
     }
 .category__business--list-item a {
@@ -75,10 +78,10 @@ html {
     color: var(--color-4);
     border: 2px;
     border-style: solid;
-    border-color: var(--color-2);
+    border-color: var(--color-1);
 }
 input[type="text"], select {
-    border: 1px solid var(--color-2);
+    border: 1px solid var(--color-1);
 }
 .category__business--list-item a {
     color: var(--color-1);
