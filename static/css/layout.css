@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    background-color:247, 229, 183;
+
 }
 .header__container {
     display: flex;
