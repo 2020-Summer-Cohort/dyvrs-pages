@@ -42,7 +42,7 @@ const renderIndividualStore = (storeId) => {
             <li class="individual-store__item">${store.productList}</li>
         </ul>
         <ul class="individual-store__info-container">
-            <li class= "individual-store__info-item" ><a href="${store.website}" target="_blank">Website</a></li>
+            <li class= "individual-store__info-item bold-website" ><a href="${store.website}" target="_blank">Website</a></li>
             <li class="individual-store__info-item"><h3>Telephone</h3> ${store.phoneNumber}</li>
             <li class="individual-store__info-item"><h3>Hours:</h3> ${store.storeHours}</li>
         </ul>

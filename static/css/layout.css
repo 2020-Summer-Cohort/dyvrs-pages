@@ -122,7 +122,7 @@ text-align: center;
 .logo{
     max-height: 100px;
     max-width: 100px;
-    margin-left: 10px;
+    margin-left: 8%;
     margin-bottom: -10px;   
 }
 .category__business--title, .contact__title, .team__title, .index__category--title,  .individual-store__title {

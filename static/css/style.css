@@ -6,7 +6,7 @@
 :root {
     --color-1: #011627;
     --color-2: rgba(4, 73, 129, 0.246);
-    --color-3: #F6F7F8;
+    --color-3: #F6F4F5;
 }
 a {
     text-decoration: none;
@@ -39,9 +39,12 @@ html {
     font-family: Federo, sans-serif;
 }
 .index__p-tag{
-    font-weight: bolder;
     font-size: xx-large;
     margin-bottom: 20px;
+}
+.bold-website{
+    font-weight: bolder;
+    color:blue
 }
 .bold-name, .index__p-tag2{
     font-size: large; 
