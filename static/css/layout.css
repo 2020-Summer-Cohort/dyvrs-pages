@@ -14,6 +14,9 @@
     text-align: center;
     align-items: center;
 }
+.bold-name, .index__p-tag2{
+    font-weight: bolder;
+}
 .contact__item{
     align-self: center;
     margin-bottom: -8px;
