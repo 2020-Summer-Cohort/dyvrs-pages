@@ -2,6 +2,7 @@ import { fetchSpotlight, fetchAllCategories } from "../fetch-api.js";
 import{renderCategory} from "./individual-category.js"
 import { renderHeader } from "./header.js";
 import { renderFooter } from "./footer.js";
+import { renderIndividualStore } from "./individual-store.js";
 export { renderSpotlightOne, renderCategoryCircle };
 
 
@@ -16,6 +17,9 @@ const renderSpotlightOne = () => {
           `;
       const ul = document.querySelector(".index__spot-light--container-list");
       ul.appendChild(spotlightOne);
+      spotlightOne.addEventListener("click", () => {
+        renderIndividualStore(store.id);
+      });
     });
   }};
   
