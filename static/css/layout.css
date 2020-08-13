@@ -63,6 +63,9 @@
     align-items: center;
     margin: 3rem;
 }
+.team__ul_container{
+    margin-bottom:10em; 
+}
 .category__business--container, .individual-store__main, .team__section{
     margin-top: 10em;
 }
