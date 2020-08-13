@@ -26,8 +26,10 @@ const renderIndividualStore = (storeId) => {
         const storeImageListItem = document.createElement("li");
         storeImageListItem.innerHTML = `
         <img class="individual-store__img" src=${store.image} alt="Company Photo ">
+        <br>
+        <br>
         <li>
-         <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="${store.address}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org">embed google map</a></div><style>.mapouter{position:relative;text-align:right;height:450px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:450px;}</style></div>
+         <div class="mapouter"><div class="gmap_canvas"><iframe width="343" height="343" id="gmap_canvas" src="${store.address}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org">embed google map</a></div><style>.mapouter{position:relative;text-align:right;height:450px;width:450px;}.gmap_canvas {overflow:hidden;background:none!important;height:450px;width:450px;}</style></div>
         </li>
         </ul>
            `
