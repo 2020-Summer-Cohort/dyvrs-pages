@@ -71,6 +71,7 @@
     min-width: 10px;
     min-height: 10px;
     border-radius: 5%;
+    padding-top: 10px;
 }
 .category__business--list-item img{
     max-height: 200px;
@@ -152,11 +153,8 @@
     align-items: center;
 }
  .footer__nav li, .header__nav li {
-    padding: .5em;
-    border-radius: 15%;
-}
-.header__nav li {
-    padding: .0px 20px 0px 20px;
+    border-radius: 10px;
+    padding: 5px 20px 10px 20px;
 }
 .individual-store__info-container li:nth-child(1){
     margin-top: 5px;
