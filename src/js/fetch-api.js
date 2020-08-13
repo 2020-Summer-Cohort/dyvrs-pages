@@ -30,8 +30,8 @@ const fetchCat1 = async () => {
   );
 };
 
-const addNewStore = async (store) => {
-  return fetch(`http://localhost:8080/api/categories/store/add/`, 
+const addNewStore = async (store, categoryId) => {
+  return fetch(`http://localhost:8080/api/category/${categoryId}/addStore/`, 
   {
     method: "POST",
     headers: { "Content-Type": "application/json",

@@ -1,5 +1,11 @@
 GET http://localhost:8080/api/category/5/
 
+<> 2020-08-13T112736.200.json
+
+###
+
+GET http://localhost:8080/api/category/5/
+
 <> 2020-08-13T111754.200.json
 
 ###
@@ -648,12 +654,6 @@ GET http://localhost:8080/api/store/random/
 GET http://localhost:8080/api/store/random/
 
 <> 2020-08-06T113010.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T110325.404.json
 
 ###
 

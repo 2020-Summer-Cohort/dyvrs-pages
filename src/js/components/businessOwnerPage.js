@@ -43,11 +43,11 @@ const renderBusinessOwnerPage = () => {
             image: "updateImage.value",
             description: updateAbout.value,
             productList: updateProductList.value,
-            category: "category3"
         }
-        console.log(store);
-        addNewStore(store).then(()=> {
-            alert(`${store.name} successfully added`)
+        const categoryId = updateCategory.value;
+        console.log(categoryId);
+        addNewStore(store, categoryId).then(()=> {
+            alert(`${store.name} successfully added`);
         })
     })
 }
