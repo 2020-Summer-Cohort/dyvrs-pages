@@ -30,12 +30,14 @@
 }
 .homepage-bg {
     /* background-image: url(../images/image.png); */
-    background-image: url(../images/fadedwhitestore.png);
+    background-image: url(../images/columbusohio2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    opacity:0.2;
 }
-#homepage-bg {
-    opacity: 0.3;
+.homepage_opacity a{
+    z-index: 12;
+    opacity: 1;
 }
 .footer {
     padding: 1em;
@@ -298,6 +300,9 @@ text-align: center;
     min-height: 4em;
     max-height: 4em;
     z-index: 12;
+    /* background-color:pink; */
+    /* border-radius: 10%; */
+    
 }
 .suggestion__div input, .suggestion__div select {
     display: grid;

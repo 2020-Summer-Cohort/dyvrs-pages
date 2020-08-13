@@ -18,10 +18,13 @@ const renderCategory = (categoryId) => {
     const div = document.createElement("div");
     div.classList.add("category__business--container");
     section.appendChild(div);
-    const h2 = document.createElement("h2");
+    const h2 = document.createElement("div");
     h2.classList.add("category__business--title");
-    h2.innerHTML = category.name;
+    h2.innerHTML =`<h2> ${category.name}</h2>`;
     div.appendChild(h2);
+    const newdiv = document.createElement("div")
+    newdiv.classList.add("newDiv");
+    div.appendChild(newdiv);
     const ul = document.createElement("ul");
     ul.classList.add("category__business--container-list");
     console.log("inside render category line 12");
