@@ -17,14 +17,14 @@ public class Populator implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Category category1 = new Category(" Restaurants", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Food.png");
-        Category category2 = new Category("&nbsp; &nbsp;Apparel", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Apparel.png");
-        Category category3 = new Category(" &nbsp;Consumer<br> &nbsp; Services", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/ConsumerServices.png");
-        Category category4 = new Category("&nbsp; &nbsp;Health &<br>&nbsp; Wellness", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Health%26Wellness.png");
-        Category category5 = new Category(" &nbsp; &nbsp; Grocery<br>&nbsp; &nbsp; &nbsp;Stores", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GroceryStore.png");
-        Category category6 = new Category("&nbsp; &nbsp;Petrol<br>&nbsp; Stations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GasStation.png");
-        Category category7 = new Category("&nbsp; &nbsp;Lodging", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Lodging.png");
-        Category category8 = new Category(" Associations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Association.png");
+        Category category1 = new Category("Restaurants", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Food.png");
+        Category category2 = new Category("Apparel", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Apparel.png");
+        Category category3 = new Category("Consumer Services", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/ConsumerServices.png");
+        Category category4 = new Category("Health & Wellness", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Health%26Wellness.png");
+        Category category5 = new Category("Grocery Stores", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GroceryStore.png");
+        Category category6 = new Category("Petrol Stations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/GasStation.png");
+        Category category7 = new Category("Lodging", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Lodging.png");
+        Category category8 = new Category("Associations", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/categoryIcons/Association.png");
         categoryRepo.save(category1);
         categoryRepo.save(category2);
         categoryRepo.save(category3);

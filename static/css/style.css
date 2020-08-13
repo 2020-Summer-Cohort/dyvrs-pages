@@ -31,9 +31,7 @@ html {
 }
 .header, .footer {
     color: var(--color-4);
-    background-color: var(--color-5);
-    border: solid 2px;
-    border-color: var(--color-1);
+    background-color: var(--color-1);
 }
 .category__business--company-name {
     font-size: small;
@@ -41,11 +39,8 @@ html {
     text-align: center;
 }
 .header__nav li {
-    /* background-color: var(--color-1); */
-    border: 2px solid var(--color-4);
     color: var(--color-4);
     overflow: hidden;
-    /* opacity: 80%; */
 }
 .footer__nav li:hover, .header__nav li:hover {
     background-color: var(--color-1);
@@ -57,8 +52,6 @@ html {
 }
 .individual-store__info-item a {
     color: var(--color-1);
-    border: 2px solid var(--color-1);
-    border-radius: 10%;
 }
 .index__spot-light--company-name {
     font-size: smaller; 
@@ -74,22 +67,19 @@ html {
 .suggestion__div, #portal-page, #new-user-page, #update-user-login {
     background-color: var(--color-3);
     color: var(--color-1);
-    border: 2px;
+    /* border: 2px;
     border-style: solid;
-    border-color: var(--color-1);
+    border-color: var(--color-1); */
 }
 ::placeholder {
     color: var(--color-1);
 }
-input[type="text"], select {
+/* input[type="text"], select {
     border: 1px solid var(--color-1);
-}
+} */
 .category__business--list-item a {
     color: var(--color-1);
 }
 #suggestion-button {
     color: var(--color-1);
-}
-.individual-store__img, .index__spot-light--img {
-border-color: var(--color-1);
 }
