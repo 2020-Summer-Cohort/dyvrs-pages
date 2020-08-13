@@ -4,10 +4,11 @@
 }
 .header__container {
     display: flex;
-    justify-content: space-evenly;
 }
+
 .header__nav {
     align-self: center;
+    margin-left: 45%;
 }
 .contact__item{
     align-self: center;
@@ -89,11 +90,11 @@
     margin-left: 8%;
     margin-bottom: 3%;
 }
+
 .logo{
-    max-height: 125px;
-    max-width: 125px;
-    margin-top: 10px;
-    margin-left: 10px;   
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 10px;
 }
 .category__business--title, .contact__title, .team__title, .index__category--title,  .individual-store__title {
     margin: 1em;
@@ -144,9 +145,12 @@
     text-align: center;
     align-items: center;
 }
-.header__nav li, .footer__nav li {
+ .footer__nav li {
     padding: .5em;
     border-radius: 15%;
+}
+.header__nav li {
+    padding: .0px 20px 0px 20px;
 }
 .individual-store__info-container li:nth-child(1){
     margin-top: 5px;
