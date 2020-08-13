@@ -136,9 +136,9 @@
     margin-right: 20px;
 }
 iframe {
-    max-height: 200px;
+    /* max-height: 200px;
     max-width: 200px;
-    min-width: 200px;
+    min-width: 200px; */
 }
 .individual-store__gridContainer {
     display: grid;
