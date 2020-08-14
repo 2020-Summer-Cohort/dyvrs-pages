@@ -32,6 +32,7 @@ const renderBusinessOwnerPage = () => {
     const updateAbout = document.querySelector("#update__about");
     const updateProductList = document.querySelector("#update__product-list");
     const updateCategory = document.querySelector("#update__category");
+    const updatePic = document.querySelector("#update__pic");
 
     updateStoreSubmitButton.addEventListener("click", ()=> {
         const store = {
@@ -40,12 +41,12 @@ const renderBusinessOwnerPage = () => {
             address: updateAddress.value,
             website: updateWebsite.value,
             storeHours: updateBusinessHours.value,
-            image: "updateImage.value",
+            image: "sample.jpg",
             description: updateAbout.value,
             productList: updateProductList.value,
         }
         const categoryId = updateCategory.value;
-        console.log(categoryId);
+        console.log(updatePic.value);
         addNewStore(store, categoryId).then(()=> {
             alert(`${store.name} successfully added`);
         })
