@@ -68,13 +68,12 @@ public class Populator implements CommandLineRunner {
         Store store33 = new Store("Way Down Yonder", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Way%20Down%20Yonder.jpg", "", "Lunch & Dinner", category1);
         Store store34 = new Store("Lifestyle Cafe", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Lifestyle%20Cafe.jpg", "", "Lunch & Dinner", category1);
         Store store35 = new Store("Burgerim", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Burgerim.jpg", "", "Lunch & Dinner", category1);
-        Store store36 = new Store("Donna’s Delicious Dozen", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Lifestyle%20Cafe.jpg", "", "Lunch & Dinner", category1);
-        Store store37 = new Store("Buns & Brews", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Donna%E2%80%99s%20Delicious%20Dozen.jpg", "", "Lunch & Dinner", category1);
+        Store store36 = new Store("Donna’s Delicious Dozen", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Donna%E2%80%99s%20Delicious%20Dozen.jpg", "", "Lunch & Dinner", category1);
+        Store store37 = new Store("Buns & Brews", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Buns%20%26%20Brews.jpg", "", "Lunch & Dinner", category1);
         Store store38 = new Store("Upper Cup Coffee", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Upper%20Cup%20Coffee.jpg", "", "Lunch & Dinner", category1);
-        Store store39 = new Store("Tensuke Markete", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Upper%20Cup%20Coffee.jpg", "", "Lunch & Dinner", category1);
-        Store store41 = new Store("Han Ma Oom", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Upper%20Cup%20Coffee.jpg", "", "Lunch & Dinner", category1);
-        Store store42 = new Store("Sierra African Market", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Upper%20Cup%20Coffee.jpg", "", "Lunch & Dinner", category1);
-
+        Store store39 = new Store("Tensuke Markete", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Tensuke%20Market.jpg", "", "Lunch & Dinner", category5);
+        Store store40 = new Store("Sierra African Market", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Sierra%20African%20Market.jpg","", "Lunch & Dinner", category5);
+        Store store41 = new Store("Han Ma Oom", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Han%20Ma%20Oom.jpg", "", "Lunch & Dinner", category5);
         storeRepo.save(store1);
         storeRepo.save(store2);
         storeRepo.save(store3);
@@ -116,7 +115,5 @@ public class Populator implements CommandLineRunner {
         storeRepo.save(store39);
         storeRepo.save(store40);
         storeRepo.save(store41);
-
-
     }
 }
