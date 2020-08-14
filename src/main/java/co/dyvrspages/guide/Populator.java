@@ -64,7 +64,9 @@ public class Populator implements CommandLineRunner {
         Store store29 = new Store("Central Ohio African American Chamber of Commerce", "614-377-4874", "NA", "http://www.coaacc.org/", "NA", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Central%20Ohio%20African%20American%20Chamber%20of%20Commerce.png", "The Central Ohio African American Chamber of Commerce (COAACC) opened for membership on  January 18, 2018 with the vision of being the premiere advocate for Black Owned businesses in our region. COAACC is a one-stop shop that develops, advocates, and educates on issues impacting the inclusion and growth of Black owned businesses in Central Ohio. We provide business development opportunities, access to capital, entry into new markets, and relationship building through strategic partnership and collaborative opportunities. We work to position our members, and all Black Owned businesses, as desirable, qualified, and capable business candidates.", "Community & Networking Events", category8);
         Store store30 = new Store("Disability Rights Ohio", "(800) 282-9181", "https://maps.google.com/maps?q=200%20S%20Civic%20Center%20Dr%20%2330&t=&z=13&ie=UTF8&iwloc=&output=embed", "https://www.disabilityrightsohio.org/", "NA", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Disability%20Rights%20Ohio.png", "We envision a society in which people with disabilities are full and equal members, enjoy the rights and opportunities of all people, are self-directed, make decisions about where, how and with whom they will live, learn, work and play, have access to needed services and supports, and are free from abuse, neglect, exploitation and discrimination.", "Community & Networking Events", category8);
         Store store31 = new Store("Creole Kitchen", "(614) 372-3333", "", "https://www.creolekitchen.biz/", "M-S: 11AM-9PM", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Creole%20Kitchen.jpg", "Chef Henry Butcher has been cooking for Columbus restaurant goers for over 40 years and yet few people know the name or the culinary discipline. He was behind the kitchen doors at the long-departed Ollie's Grandview Inn. During the early days of Tony's Ristorante, still a top destination in the Brewery District, Chef Butcher was deep into Italian fare and still loves it. Also, for a decade or more, he was executive chef for the Delaware Hotel which had a menu touching all culinary considerations.", "Lunch & Dinner", category1);
-
+        Store store32 = new Store("Flavor 91", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Creole%20Kitchen.jpg", "", "Lunch & Dinner", category1);
+        Store store33 = new Store("Way Down Yonder", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Creole%20Kitchen.jpg", "", "Lunch & Dinner", category1);
+        Store store34 = new Store("Lifestyle Cafe", "", "", "", "", "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/dev/static/images/Stores/Creole%20Kitchen.jpg", "", "Lunch & Dinner", category1);
         storeRepo.save(store1);
         storeRepo.save(store2);
         storeRepo.save(store3);
@@ -95,5 +97,11 @@ public class Populator implements CommandLineRunner {
         storeRepo.save(store28);
         storeRepo.save(store29);
         storeRepo.save(store30);
+        storeRepo.save(store31);
+        storeRepo.save(store32);
+        storeRepo.save(store33);
+        storeRepo.save(store34);
+
+
     }
 }
