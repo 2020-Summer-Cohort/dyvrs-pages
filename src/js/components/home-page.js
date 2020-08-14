@@ -54,10 +54,3 @@ const renderSpotlightOne = () => {
         indexCategory.appendChild(indexCircleContainer);
     })
   }
-
-//   categoryClick.innerHTML = `
-//   <img src="${category[i].image}">  <h4 class="index__single-category--name">${category[i].name}</h4>
-// `;
-
-// categoryClick.addEventListener("click", () => {
-//   renderCategory(category[i].id);
