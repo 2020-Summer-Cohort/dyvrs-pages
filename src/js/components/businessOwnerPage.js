@@ -41,7 +41,7 @@ const renderBusinessOwnerPage = () => {
             address: updateAddress.value,
             website: updateWebsite.value,
             storeHours: updateBusinessHours.value,
-            image: "sample.jpg",
+            image: "https://raw.githubusercontent.com/2020-Summer-Cohort/dyvrs-pages/add-photos/static/images/Stores/sample.jpg",
             description: updateAbout.value,
             productList: updateProductList.value,
         }
