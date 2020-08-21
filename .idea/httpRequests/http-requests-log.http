@@ -1,3 +1,458 @@
+POST http://localhost:8080/api/category/5/addStore/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T074125.200.json
+
+###
+
+POST http://localhost:8080/api/category/5/addStore/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T073928.404.json
+
+###
+
+GET http://localhost:8080/api/index/
+
+<> 2020-08-13T073919.200.json
+
+###
+
+GET http://localhost:8080/api/category/5/
+
+<> 2020-08-13T112736.200.json
+
+###
+
+GET http://localhost:8080/api/category/5/
+
+<> 2020-08-13T111754.200.json
+
+###
+
+POST http://localhost:8080/api/category/5/addStore/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T111746.200.json
+
+###
+
+POST http://localhost:8080/api/category/5/addstore
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T111708.404.json
+
+###
+
+GET http://localhost:8080/api/category/5/
+
+<> 2020-08-13T111050.200.json
+
+###
+
+POST http://localhost:8080/api/category/5/addstore
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test"
+}
+
+<> 2020-08-13T111017.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": 3
+}
+
+<> 2020-08-13T104148.400.json
+
+###
+
+GET http://localhost:8080/api/category/3/
+
+<> 2020-08-13T104006.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "3"
+}
+
+<> 2020-08-13T103954.400.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "Food"
+}
+
+<> 2020-08-13T103821.400.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T103609.400.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": category1
+}
+
+<> 2020-08-13T103535.400.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T103415.400.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T095951.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T095851.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T095536.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T095421.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T095329.200.json
+
+###
+
+GET http://localhost:8080/api/index/
+
+<> 2020-08-13T095119.200.json
+
+###
+
+POST http://localhost:8080/api/categories/store/add/
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "phoneNumber": "Test",
+  "address": "Test",
+  "website": "Test",
+  "storeHours": "Test",
+  "image": "Test",
+  "description": "Test",
+  "productList": "Test",
+  "category": "category1"
+}
+
+<> 2020-08-13T094719.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "address": "Hogwarts"
+}
+
+<> 2020-08-12T061843.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T061833.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "address": "Hogwarts"
+}
+
+<> 2020-08-12T060441.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T060435.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1"
+}
+
+<> 2020-08-12T055723.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T055718.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1"
+}
+
+<> 2020-08-12T055153.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T055148.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T055030.200.json
+
+###
+
+PATCH http://localhost:8080/api/stores/38/update-store/
+Content-Type: application/json
+
+{
+  "name": "Test1",
+  "phoneNumber": "Test1",
+  "address": "Test1",
+  "website": "Test1",
+  "storeHours": "Test1",
+  "image": "Test1",
+  "description": "Test1",
+  "productList": "Test1",
+  "category": "category1"
+}
+
+<> 2020-08-12T055026.200.json
+
+###
+
+GET http://localhost:8080/api/stores/38/
+
+<> 2020-08-12T055019.200.json
+
+###
+
 PATCH http://localhost:8080/api/stores/38/update-store/
 Content-Type: application/json
 
@@ -225,192 +680,6 @@ Content-Type: application/json
 GET http://localhost:8080/api/store/random/
 
 <> 2020-08-06T113106.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T113059.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T113010.200.json
-
-###
-
-GET http://localhost:8080/api/store/random/
-
-<> 2020-08-06T110325.404.json
-
-###
-
-GET http://localhost:8080/api/stores/23/
-
-<> 2020-08-05T014658.200.json
-
-###
-
-GET http://localhost:8080/api/category/3/
-
-<> 2020-08-05T012537.200.json
-
-###
-
-GET http://localhost:8080/api/category/6/
-
-<> 2020-08-05T012508.200.json
-
-###
-
-GET http://localhost:8080/api/category/6/
-
-<> 2020-08-05T111148.200.json
-
-###
-
-GET http://localhost:8080/api/category/6/
-
-<> 2020-08-05T111000.200.json
-
-###
-
-GET http://localhost:8080/api/category/6/
-
-<> 2020-08-05T110633.200.json
-
-###
-
-GET http://localhost:8080/api/category/6
-
-<> 2020-08-05T110610.404.json
-
-###
-
-POST http://localhost:8080/api/categories/store/add/
-Content-Type: application/json
-
-{
-"name":"Test",
-  "phoneNumber": "Test",
-  "address": "Test",
-  "website": "Test",
-  "storeHours": "Test",
-  "image": "Test",
-  "description": "Test",
-  "productList": "Test",
-  "category": "category1"
-}
-
-<> 2020-08-03T020647.404.json
-
-###
-
-POST http://localhost:8080/api/categories/store/add/
-Content-Type: application/json
-
-{
-"name":"Test",
-  "phoneNumber": "Test",
-  "address": "Test",
-  "website": "Test",
-  "storeHours": "Test",
-  "image": "Test",
-  "description": "Test",
-  "productList": "Test",
-  "category": "category1"
-}
-
-<> 2020-08-03T020540.404.json
-
-###
-
-GET http://localhost:8080/api/team/39
-
-<> 2020-08-03T115747.200.json
-
-###
-
-GET http://localhost:8080/api/team/39
-
-<> 2020-08-03T115208.404.json
-
-###
-
-GET http://localhost:8080/api/team/39
-
-<> 2020-08-03T115109.404.json
-
-###
-
-GET http://localhost:8080/api/team/38
-
-<> 2020-08-03T115100.404.json
-
-###
-
-GET http://localhost:8080/api/team/45
-
-<> 2020-08-03T114952.404.json
-
-###
-
-GET http://localhost:8080/api/team/40
-
-<> 2020-08-03T114935.404.json
-
-###
-
-GET http://localhost:8080/api/stores/17
-
-<> 2020-08-03T113220.200.json
-
-###
-
-GET http://localhost:8080/api/stores/5
-
-<> 2020-08-03T112905.500.json
-
-###
-
-GET http://localhost:8080/api/stores/5
-
-<> 2020-08-03T112230.500.json
-
-###
-
-GET http://localhost:8080/api/stores/5
-
-<> 2020-08-03T110833.500.json
-
-###
-
-GET http://localhost:8080/api/category/6
-
-<> 2020-08-03T110739.200.json
-
-###
-
-GET http://localhost:8080/api/category/7
-
-<> 2020-08-03T110714.200.json
-
-###
-
-GET http://localhost:8080/api/index/
-
-<> 2020-08-03T110646.200.json
-
-###
-
-GET http://localhost:8080/api/index/
-
-<> 2020-08-03T110310.200.json
 
 ###
 

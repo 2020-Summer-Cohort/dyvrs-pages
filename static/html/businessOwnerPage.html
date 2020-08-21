@@ -1,92 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <head>
+    <meta charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>Owner Portal</title>
-    <link href="../css/style.css" rel="stylesheet"/>
-    <link href="../css/layout.css" rel="stylesheet"/>
-</head>
-<body class="main">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link href="../css/layout.css" rel="stylesheet" />
+  </head>
+  <body class="main">
     <div class="" id="portal-page">
-        <section>
-            <nav class="businessOwnerPage__nav">
-                <ul class="business__owner_container">
-                    <li class="business_list-item">
-                        <input id="business_name" name="business" placeholder="Enter account name" type="text">
-                        <input id="business_name2" name="business" placeholder="Enter your password" type="text">
-                    </li>
-                    <li class="business_list-item">
-                        <button class="update-user-button">Login</button>
-                        <button class="new-user-button">Create New Account</button>
-                    </li>
-                </ul>
-            </nav>
-        </section>
+      <section>
+        <nav class="businessOwnerPage__nav">
+          <ul class="business__owner_container">
+            <li class="business_list-item">
+              <input
+                id="business_name"
+                name="business"
+                placeholder="Enter account name"
+                type="text"
+              />
+              <input
+                id="business_name2"
+                name="business"
+                placeholder="Enter your password"
+                type="text"
+              />
+            </li>
+            <li class="business_list-item">
+              <button class="update-user-button">Login</button>
+              <button class="new-user-button">Create New Account</button>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </div>
     <div class="hidden" id="new-user-page">
-        <section class="new-user-form__section">
-            <h2 class="new-user-form__title">New User Submission Form</h2>
-            <div class="new-user-form__container">
-                <label for="name">Business Name</label>
-                <input id="business_name3" name="business" placeholder="Enter business name... " type="text">
-                <label for="b_owner_name">Business Owner's Name</label>
-                <input id="b_owners_name" name="b_owner_name" placeholder="Business owner or contacts fist and last name... " type="text">
-                <label for="lname">Contact Number</label>
-                <input id="b_phonenumber" name="phonenumber" placeholder="Your business or personal phonenumber... " type="text">
-                <label for="lname">Contact Email</label>
-                <input id="b_email" name="email" placeholder="Email you can be reached at.." type="text">
-                <p class="new-user-form__item2">Upload document:</p>
-                <form href="http://localhost:8080/index.html">
-                    <input id="myFile" name="filename" type="file">
-                    <input type="submit">
-                </form>
-            </div>
-        </section>
+      <section class="new-user-form__section">
+        <h2 class="new-user-form__title">New User Submission Form</h2>
+        <div class="new-user-form__container">
+          <label for="name">Business Name</label>
+          <input
+            id="business_name3"
+            name="business"
+            placeholder="Enter business name... "
+            type="text"
+          />
+          <label for="b_owner_name">Business Owner's Name</label>
+          <input
+            id="b_owners_name"
+            name="b_owner_name"
+            placeholder="Business owner or contacts fist and last name... "
+            type="text"
+          />
+          <label for="lname">Contact Number</label>
+          <input
+            id="b_phonenumber"
+            name="phonenumber"
+            placeholder="Your business or personal phonenumber... "
+            type="text"
+          />
+          <label for="lname">Contact Email</label>
+          <input
+            id="b_email"
+            name="email"
+            placeholder="Email you can be reached at.."
+            type="text"
+          />
+          <p class="new-user-form__item2">Upload document:</p>
+          <form href="http://localhost:8080/index.html">
+            <input id="myFile" name="filename" type="file" />
+            <input type="submit" />
+          </form>
+        </div>
+      </section>
     </div>
     <div class="hidden" id="update-user-login">
-        <section class="user-update-log-in__section">
-            <h2 class="user-update-log-in__title">Website Form</h2>    
-            <label for="lname">Name of Business</label>
-            <input id="business_name4" name="name_of_business" placeholder="Your Name of Business.." type="text">
-            <select id="contact_reason" name="contact_reason">
-                <option value="suggest_new_business">Type of Business</option>
-                <option value="business_type_apparel">Apparel</option>
-                <option value="business_type_associations">Associations</option>
-                <option value="business_type_consumer-services">Consumer Services</option>
-                <option value="business_type_restaurants">Restaurants</option>
-                <option value="business_type_grocery-stores">Grocery Stores</option>
-                <option value="business_type_health-wellness">Health & Wellness</option>
-                <option value="business_type_lodging">Lodging</option>
-                <option value="business_type_petrol-stations">Petrol Stations</option>
-                <option value="other">Other</option>
-            </select>
-            <section>
-                <label for="lname">Primary Contacts First and Last Name:</label>
-                <input id="x" name=x2" placeholder="Primary Contacts First and Last Name:" type="text">
-                <label for="lname">Primary Contacts Phone Number:</label>
-                <input id="x" name=x2" placeholder="Phone Number..." type="text">
-                <label for="lname">Primary Contacts Phone Number:</label>
-                <input id="x" name=x2" placeholder="Primary Contacts Phone Number:" type="text">
-                <label for="lname">Business Email :</label>
-                <input id="x" name=x2" placeholder="Business Email" type="text">
-                <label for="lname">Website URl :</label>
-                <input id="x" name=x2" placeholder="Website Url..." type="text">
-                <label for="lname">Business Hours :</label>
-                <input id="x" name=x2" placeholder="Business Hours..." type="text">
-                <label for="lname">About Section :</label>
-                <input id="x" name=x2" placeholder="about section" type="text">
-                <label for="lname">Product List :</label>
-                <input id="x" name=x2" placeholder="Product List" type="text">
-                <p>Click on the "Upload a picture of your Business</p>
-                <form href="http://localhost:8080/index.html">
-                    <input id="myFile2" name="filename" type="file">
-                    <input type="submit">
-                </form>
-            </section>    
-        </section>
+      <section class="user-update-log-in__section">
+        <h2 class="user-update-log-in__title">Website Form</h2>
+        <div>
+          <label for="update__business-name">Name of Business</label>
+          <input
+            id="update__business-name"
+            name="name"
+            placeholder="Your Business' Name..."
+            type="text"
+          />
+          <select id="update__category" name="category">
+            <option value="suggest_new_business">Type of Business</option>
+            <option value="1">Restaurant</option>
+            <option value="2">Apparel</option>
+            <option value="3">Consumer Services</option>
+            <option value="4">Health and Wellness</option>
+            <option value="5">Grocery Store</option>
+            <option value="6">Petrol Stations</option>
+            <option value="7">Lodging</option>
+            <option value="8">Associations</option>
+          </select>
+          <section>
+            <label for="update__phone-number">Phone Number:</label>
+            <input
+              id="update__phone-number"
+              name="phoneNumber"
+              placeholder="Phone Number..."
+              type="text"
+            />
+            <label for="update__address">Address:</label>
+            <input
+              id="update__address"
+              name="address"
+              placeholder="Address..."
+              type="text"
+            />
+            <label for="update__website">Website URL :</label>
+            <input
+              id="update__website"
+              name="website"
+              placeholder="Website Url..."
+              type="text"
+            />
+            <label for="update__business-hours">Business Hours :</label>
+            <input
+              id="update__business-hours"
+              name="storeHours"
+              placeholder="Business Hours..."
+              type="text"
+            />
+            <label for="update__about">About Section :</label>
+            <input
+              id="update__about"
+              name="description"
+              placeholder="About the store..."
+              type="text"
+            />
+            <label for="update__product-list">Product List :</label>
+            <input
+              id="update__product-list"
+              name="productList"
+              placeholder="Product list..."
+              type="text"
+            />
+            <p>Click on the "Upload a picture of your Business</p>
+            <input id="myFile2" name="filename" type="file" />
+
+            <button class="update__submit-button">Submit</button>
+          </section>
+        </div>
+      </section>
     </div>
-    <script src="../../src/js/html-scripts/business-owner-script.js" type="module"></script>
+    <script
+      src="../../src/js/html-scripts/business-owner-script.js"
+      type="module"
+    ></script>
     <!-- <script src="../../src/js/app.js" type="module"></script> -->
-</body>
+  </body>
 </html>

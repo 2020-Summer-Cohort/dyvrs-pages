@@ -93,10 +93,10 @@ html {
 ::placeholder {
     color: var(--color-1);
 }
-
-.category__business--list-item a {
+/* .category__business--list-item a {
     color: var(--color-1);
-}
+} */
+
 #suggestion-button {
     color: var(--color-1);
 }
