@@ -40,7 +40,7 @@ const renderBusinessOwnerPage = () => {
             address: updateAddress.value,
             website: updateWebsite.value,
             storeHours: updateBusinessHours.value,
-            image: "updateImage.value",
+            image: "/static/images/Stores/genericColumbus.jpg",
             description: updateAbout.value,
             productList: updateProductList.value,
         }
